@@ -1,0 +1,20 @@
+{
+  "name": "yok_jalan",
+  "version": "1.0.0",
+  "description": "Website untuk mencari tempat wisata di Indonesia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HadiatAbdulBashit/Yok_Jalan.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HadiatAbdulBashit/Yok_Jalan/issues"
+  },
+  "homepage": "https://github.com/HadiatAbdulBashit/Yok_Jalan#readme"
+}
