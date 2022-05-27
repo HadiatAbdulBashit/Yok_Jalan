@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/HadiatAbdulBashit/Yok_Jalan/issues"
   },
-  "homepage": "https://github.com/HadiatAbdulBashit/Yok_Jalan#readme"
+  "homepage": "https://github.com/HadiatAbdulBashit/Yok_Jalan#readme",
+  "devDependencies": {
+    "webpack": "^5.72.1"
+  }
 }
