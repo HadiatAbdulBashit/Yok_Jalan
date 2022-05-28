@@ -199,6 +199,96 @@
       "rating": 4.5,
       "kategori": "Pantai",
       "cp": "-"
+    },
+    {
+      "id": "21",
+      "nama": "Gunung Bromo",
+      "picture": "https://statik.tempo.co/data/2019/05/21/id_843378/843378_720.jpg",
+      "deskripsi": "Gunung Bromo atau dalam bahasa Tengger dieja 'Brama', juga disebut Kaldera Tengger, adalah sebuah gunung berapi aktif di Jawa Timur, Indonesia. Gunung ini memiliki ketinggian 2.329 meter di atas permukaan laut dan berada dalam empat wilayah kabupaten, yakni Kabupaten Probolinggo, Kabupaten Pasuruan, Kabupaten Lumajang, dan Kabupaten Malang. Gunung Bromo terkenal sebagai objek wisata utama di Jawa Timur. Sebagai sebuah objek wisata, Bromo menjadi menarik karena statusnya sebagai gunung berapi yang masih aktif. Gunung Bromo termasuk dalam kawasan Taman Nasional Bromo Tengger Semeru.",
+      "alamat": "Gn. Bromo, Podokoyo, Kec. Tosari, Pasuruan, Jawa Timur.",
+      "ranting": 4.6,
+      "cp": "0812-3303-2377"
+    },
+    {
+      "id": "22",
+      "nama": "Gunung Semeru",
+      "picture": "https://phinemo.com/wp-content/uploads/2018/02/Gunung-Semeru.jpg",
+      "deskripsi": "Gunung Semeru atau Gunung Meru adalah sebuah gunung berapi kerucut di Jawa Timur, Indonesia. Gunung Semeru merupakan gunung tertinggi di Pulau Jawa, dengan puncaknya Mahameru, 3.676 meter dari permukaan laut (mdpl). Gunung ini terbentuk akibat subduksi Lempeng Indo-Australia kebawah Lempeng Eurasia. Gunung Semeru juga merupakan gunung berapi tertinggi ketiga di Indonesia setelah Gunung Kerinci di Sumatra dan Gunung Rinjani di Nusa Tenggara Barat.[2] Kawah di puncak Gunung Semeru dikenal dengan nama Jonggring Saloko.",
+      "alamat": "Ngampo, Pasrujambe, Kec. Pasrujambe, Kabupaten Lumajang, Jawa Timur.",
+      "ranting": 4.6,
+      "cp": "-"
+    },
+    {
+      "id": "23",
+      "nama": "Gunung Prau",
+      "picture": "https://getlost.id/wp-content/uploads/2020/08/prau_667082506.jpg",
+      "deskripsi": "Gunung Prahu (terkadang dieja Gunung Prau) (2.590 mdpl) terletak di kawasan Dataran Tinggi Dieng, Jawa Tengah, Indonesia. Puncak Gunung Prahu merupakan padang rumput luas yang memanjang dari barat ke timur. Bukit-bukit kecil dan sabana dengan sedikit pepohonan dapat kita jumpai di puncak. Gunung Prahu merupakan puncak tertinggi di kawasan Dataran Tinggi Dieng, dengan beberapa puncak yang lebih rendah di sekitarnya, antara lain Gunung Sipandu, Gunung Pangamun-amun, dan Gunung Juranggrawah.",
+      "alamat": "Bakulan, Dieng, Wonosobo, Kabupaten Wonosobo, Jawa Tengah 56354.",
+      "ranting": 4.8,
+      "cp": "0822-2677-4823"
+    },
+    {
+      "id": "24",
+      "nama": "Gunung Ijen",
+      "picture": "https://asset.kompas.com/crops/JAI-OD0Mk6a-48b4PyQs1v72RFY=/0x0:739x493/750x500/data/photo/2020/03/20/5e74a47552a87.jpg",
+      "deskripsi": "Gunung Ijen adalah sebuah gunung berapi yang terletak di perbatasan Kabupaten Banyuwangi dan Kabupaten Bondowoso, Jawa Timur, Indonesia. Gunung ini memiliki ketinggian 2.386 mdpl dan terletak berdampingan dengan Gunung Merapi. Gunung Ijen terakhir meletus pada tahun 1999. Salah satu fenomena alam yang paling terkenal dari Gunung Ijen adalah blue fire (api biru) di dalam kawah yang terletak di puncak gunung tersebut. Pendakian gunung ini bisa dimulai dari dua tempat, yakni dari Banyuwangi atau dari Bondowoso.",
+      "alamat": "Desa Tamansari, Kecamatan Licin, Kabupaten Banyuwangi, Jawa Timur.",
+      "ranting":4.7,
+      "cp": "-"
+    },
+    {
+      "id": "25",
+      "nama": "Gunung Rinjani",
+      "picture": "https://asset.kompas.com/crops/WYcYPfavcrfsNzSm6bXugeuKloA=/0x0:740x493/750x500/data/photo/2021/03/27/605e9f16e805f.jpg",
+      "deskripsi": "Gunung Rinjani adalah gunung yang berlokasi di Pulau Lombok, Nusa Tenggara Barat. Gunung yang merupakan gunung berapi kedua tertinggi di Indonesia dengan ketinggian 3.726 mdpl serta terletak pada lintang 8º25' LS dan 116º28' BT ini merupakan gunung favorit bagi pendaki Indonesia karena keindahan pemandangannya. Gunung ini merupakan bagian dari Taman Nasional Gunung Rinjani yang memiliki luas sekitar 41.330 ha dan ini akan diusulkan penambahannya sehingga menjadi 76.000 ha ke arah barat dan timur.",
+      "alamat": "Sembalun Lawang, Kec. Sembalun, Kabupaten Lombok Timur, Nusa Tenggara Barat.",
+      "ranting":4.5,
+      "cp": "-"
+    },
+    {
+      "id": "26",
+      "nama": "Gunung Kelimutu",
+      "picture": "https://ilmugeografi.com/wp-content/uploads/2022/03/danau-kelimutu.jpg",
+      "deskripsi": "Gunung Kelimutu adalah gunung berapi yang terletak di Pulau Flores, Provinsi NTT, Indonesia. Gunung ini memiliki tiga buah danau Diarsipkan 2017-03-04 di Wayback Machine. kawah di puncaknya. Danau ini dikenal dengan nama Danau Tiga Warna karena memiliki tiga warna yang berbeda, yaitu merah, biru, dan putih. Walaupun begitu, warna-warna tersebut selalu berubah-ubah seiring dengan perjalanan waktu.Kelimutu merupakan gabungan kata dari 'keli' yang berarti gunung dan kata 'mutu' yang berarti mendidih.",
+      "alamat": "Desa Pemo, Kecamatan Kelimutu, Kabupaten Ende.",
+      "ranting":4.6,
+      "cp": "-"
+    },
+    {
+      "id": "27",
+      "nama": "Gunung Patuha",
+      "picture": "https://1.bp.blogspot.com/-mpOZYrxYAso/XlCI71nobII/AAAAAAAAByE/aZfWExqx2QcUFWdg1KZD5o-M-Fb8IZwiACLcBGAsYHQ/s1600/IMG_20200222_083511061.jpg",
+      "deskripsi": "Gunung Patuha merupakan sebuah gunung yang terdapat di Rancabali, Ciwidey, Kabupaten Bandung, Jawa Barat yang memiliki ketinggian 2.434 meter.[2] Gunung Patuha memiliki kawah yang sangat eksotik, yaitu kawah putih. Kawah yang terbentuk dari letusan gunung patuha itu memiliki dinding kawah dan air yang berwarna putih. Gunung Patuha mempunyai kawasan hutan Dipterokarp Bukit, hutan Dipterokarp Atas, hutan Montane, dan Hutan Ericaceous atau hutan gunung.",
+      "alamat": "Sugihmukti, Kec. Pasirjambu, Kabupaten Bandung, Jawa Barat",
+      "ranting":4.6,
+      "cp": "-"
+    },
+    {
+      "id": "28",
+      "nama": "Gunung Kerinci",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Uprising-mount_kerinci.jpg/1280px-Uprising-mount_kerinci.jpg",
+      "deskripsi": "Gunung Kerinci merupakan gunung berapi bertipe stratovulcano yang masih aktif dan terakhir kali meletus pada tahun 2009. Pada puncak Gunung Kerinci, dapat melihat dikejauhan membentang pemandangan indah Kota Jambi, Padang, dan Bengkulu. Bahkan Samudera Hindia yang luas dapat terlihat dengan jelas. Gunung Kerinci memiliki kawah seluas 400 x 120 meter dan berisi air yang berwarna hijau. Di sebelah timur terdapat Rawa Bento, rawa berair jernih tertinggi di Sumatra. Di belakangnya terdapat Gunung Tujuh dengan kawah yang hampir tak tersentuh.",
+      "alamat": "Lubuk Gadang Sel., Kec. Sangir, Kabupaten Solok Selatan, Sumatera Barat",
+      "ranting":4.4,
+      "cp": "-"
+    },
+    {
+      "id": "29",
+      "nama": "Gunung Cartensz",
+      "picture": "https://www.gregmaud.com/wp-content/uploads/2018/07/Carstensz-Pyramid.jpg",
+      "deskripsi": "Puncak Jaya Wijaya atau Piramida Carstensz ialah sebuah puncak tertinggi yang menjadi bagian dari Pegunungan Barisan Sudirman yang terdapat di Provinsi Papua, Indonesia. Puncak Jaya atau Piramida Carstensz mempunyai ketinggian 4.884 mdpl dan di sekitarnya terdapat gletser dengan nama yang sama yakni gletser Carstensz, satu-satunya gletser tropika di Indonesia, yang tersisa dan secara perlahan mulai menipis akibat pemanasan global. Puncak ini merupakan gunung tertinggi di Indonesia kawasan Oceania. Puncak Jaya adalah salah satu dari tujuh puncak tertinggi di dunia.",
+      "alamat": "Tembagapura, Kec. Tembagapura, Kabupaten Mimika, Papua",
+      "ranting":4.5,
+      "cp": "-"
+    },
+    {
+      "id": "30",
+      "nama": "Gunung Gede",
+      "picture": "https://www.klikkoran.com/wp-content/uploads/2021/02/gununggede.jpg",
+      "deskripsi": "Gunung Gede merupakan sebuah gunung api bertipe stratovolcano yang berada di Pulau Jawa, Indonesia. Gunung Gede berada dalam ruang lingkup Taman Nasional Gede Pangrango, yang merupakan salah satu dari lima taman nasional yang pertama kali diumumkan di Indonesia pada tahun 1980. Gunung ini berada di dua wilayah kabupaten yaitu Kabupaten Cianjur dan Sukabumi, dengan ketinggian 1.000 - 2.958 m. dpl, dan berada pada lintang 106°51' - 107°02' BT dan 64°1' - 65°1 LS. Suhu rata-rata di puncak gunung Gede 18 °C dan di malam hari suhu puncak berkisar 5 °C, dengan curah hujan rata-rata 3.600 mm/tahun. Gerbang utama menuju gunung ini adalah dari Cibodas dan Cipanas.",
+      "alamat": "Cipendawa, Kec. Pacet, Kabupaten Cianjur, Jawa Barat",
+      "ranting":4.7,
+      "cp": "-"
     }
   ]
 }
