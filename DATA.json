@@ -7,6 +7,7 @@
       "pictureId": "https://ik.imagekit.io/tvlk/blog/2020/01/wisata-edukasi-di-Indonesia-3-Traveloka.jpeg?tr=dpr-1,w-675",
       "alamat": "Jl. Terusan Sultan Agung No.2, Ngaglik, Kec. Batu, Kota Batu, Jawa Timur 65314",
       "rating": 4.7,
+      "kategori": "Museum",
       "cp": "0341595007"
     },
     {
@@ -16,6 +17,7 @@
       "pictureId": "https://ik.imagekit.io/tvlk/blog/2020/03/Museum-di-Jakarta-1-Wikipedia.jpg?tr=dpr-1,w-675",
       "alamat": "Jl. Medan Merdeka Barat No. 12, Kelurahan Gambir, Kecamatan Gambir, Jakarta Pusat 10110",
       "rating": 4.6,
+      "kategori": "Museum",
       "cp": "0213868172"
     },
     {
@@ -25,6 +27,7 @@
       "pictureId": "https://ik.imagekit.io/tvlk/blog/2018/08/Jakarta-Museum-Fatahillah-756302473.jpg?tr=dpr-1,w-675",
       "alamat": "Jl. Taman Fatahillah No. 1, Jakarta Barat, DKI Jakarta, Indonesia",
       "rating": 4.6,
+      "kategori": "Museum",
       "cp": "0216929101"
     },
     {
@@ -34,6 +37,7 @@
       "pictureId": "https://ik.imagekit.io/tvlk/blog/2019/10/Cards-05-The-Blanco-Renaissance-Museum.jpg?tr=dpr-1,w-675",
       "alamat": "Jl. Raya Campuhan, Sayan, Kecamatan Ubud, Kabupaten Gianyar, Bali 80571",
       "rating": 4.3,
+      "kategori": "Museum",
       "cp": "0361975502"
     },
     {
@@ -43,6 +47,7 @@
       "pictureId": "https://ik.imagekit.io/tvlk/blog/2020/03/wisata-budaya-indonesia-1.jpg?tr=dpr-1,w-675",
       "alamat": "Jl. Boyong No.KM 25, Kaliurang, Hargobinangun, Kec. Pakem, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55582",
       "rating": 4.7,
+      "kategori": "Museum",
       "cp": "0274895161"
     },
     {
@@ -52,6 +57,7 @@
       "pictureId": "https://ik.imagekit.io/tvlk/blog/2020/08/Museum-Tsunami-shutterstock_1389245342.jpeg?tr=dpr-1,w-675",
       "alamat": "Jl. Sultan Iskandar Muda, Sukaramai, Kec. Baiturrahman, Kota Banda Aceh, Aceh 23116",
       "rating": 4.6,
+      "kategori": "Museum",
       "cp": "065140774"
     },
     {
@@ -61,6 +67,7 @@
       "pictureId": "https://ik.imagekit.io/tvlk/blog/2021/01/Museum-Siwalima-1024x768.jpg?tr=dpr-1,w-675",
       "alamat": "Jl. Dr. Malaiholo, Taman Makmur, Kel. Nusaniwe, Kec. Nusaniwe, Kota Ambon, Maluku",
       "rating": 4.2,
+      "kategori": "Museum",
       "cp": "0911341652"
     },
     {
@@ -70,6 +77,7 @@
       "pictureId": "https://upload.wikimedia.org/wikipedia/commons/8/85/Museum_Geologi.JPG",
       "alamat": "Jl. Diponegoro No.57, Cihaur Geulis, Kec. Cibeunying Kaler, Kota Bandung, Jawa Barat 40122",
       "rating": 4.6,
+      "kategori": "Museum",
       "cp": "0227213822"
     },
     {
@@ -79,6 +87,7 @@
       "pictureId": "https://ik.imagekit.io/tvlk/blog/2020/01/wisata-edukasi-di-Indonesia-10-Wikipedia.jpg?tr=dpr-1,w-675 ",
       "alamat": "Jl. Perintis Kemerdekaan No.275, Srondol Kulon, Kec. Banyumanik, Kota Semarang, Jawa Tengah 50263",
       "rating": 4.5,
+      "kategori": "Museum",
       "cp": "0247475172"
     },
     {
@@ -88,7 +97,108 @@
       "pictureId": "https://upload.wikimedia.org/wikipedia/commons/9/90/KolongTangga2.jpg",
       "alamat": "Jl. Tirtodipuran No.26, Mantrijeron, Kec. Mantrijeron, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55143",
       "rating": 4.3,
+      "kategori": "Museum",
       "cp": "08112633977"
+    },
+    {
+      "id": "11",
+      "nama": "Pantai Nihiwatu",
+      "deskripsi": "Terletak di arah 30 Km dari Kota Waikabubak, Kabupaten Sumba Barat, Provinsi Nusa Tenggara Timur (NTT), pantai ini memang mimiliki suasana yang sepi dan nyaman sehingga sangat cocok bagi yang ingin menyendiri dan menikmati suasana pantai. Hal ini disebabkan karena letak Pantai Nihiwatu jauh dari keramaian kota dan belum terjamah oleh industri – industri yang ada di Indonesia. Pantai Nihiwatu saat ini dikelola oleh sebuah resort internasional yang bernama Resort Nihiwatu. Tidak semua orang dapat bebas memasuki lokasi pantai ini, karena penjagaan yang sangat ketat. Hanya tamu Resort Nihiwatu saja yang diperbolehkan memasukinya. Jika anda ingin menikmati keindahan Pantai Nihiwatu, tentunya anda perlu memesan kamar untuk menginap di Resort Nihiwatu terlebih dahulu.",
+      "pictureId": "https://cdn.idntimes.com/content-images/post/20151112/nihiwatu-782a66e2f463da79ea6d8deeac7551c2.jpg",
+      "alamat": "Kecamatan Waikabubak, Kabupaten Sumba Barat, Propinsi Nusa Tenggara Timur 87217, Indonesia.",
+      "rating": 4.7,
+      "kategori": "Pantai",
+      "cp": "-"
+    },
+    {
+      "id": "12",
+      "nama": "Pantai Ora",
+      "deskripsi": "Pantai Ora adalah suatu pantai yang terletak Pulau Seram, kecamatan Seram Utara, Maluku Tengah, Maluku, Indonesia. Pantai yang berlokasi di ujung barat teluk Sawai ini berada di sebelah Desa Saleman dan Desa Sawai, di tepi hutan Taman Nasional Manusela. Pantai Ora memiliki karakteristik pantai yang berpasir putih dengan air yang sangat jernih dan tenang dengan kekayaan terumbu karang, ikan dan aneka ragam biota laut lainnya. Pantai Ora memiliki resor penginapan yang mengambang di atas pantai. Sementara di Desa Sawai terdapat pondok wisata yang berada di antara pemukiman penduduk yang juga terapung di pantai. Berbagai kegiatan wisata yang dapat dilakukan di Pantai Ora antara lain wisata alam, wisata tirta, selam permukaan, selam, wisata kuliner, jelajah gua dan fotografi.",
+      "pictureId": "https://cdn.idntimes.com/content-images/post/20151112/pantaiora-9f63f6cd326a1fbc4cf6d01db0d6d1cb.jpg",
+      "alamat": "Kec. Loura, Kabupaten Sumba Barat Daya, Nusa Tenggara Timur",
+      "rating": 4.2,
+      "kategori": "Pantai",
+      "cp": "082191124143"
+    },
+    {
+      "id": "13",
+      "nama": "Pantai Pandawa",
+      "deskripsi": "Pantai Pandawa adalah salah satu kawasan wisata di area Kuta selatan, Kabupaten Badung, Bali. Pantai ini terletak di balik perbukitan dan sering disebut sebagai Pantai Rahasia (Secret Beach). Di sekitar pantai ini terdapat dua tebing yang sangat besar yang pada salah satu sisinya dipahat lima patung Pandawa dan Kunti. Keenam patung tersebut secarara berurutan (dari posisi tertinggi) diberi penejasan nama Dewi Kunti, Dharma Wangsa, Bima, Arjuna, Nakula, dan Sadewa. Selain untuk tujuan wisata dan olahraga air, pantai ini juga dimanfaatkan untuk budidaya rumput laut karena kontur pantai yang landai dan ombak yang tidak sampai ke garis pantai. Cukup banyak wisatawan yang melakukan paralayang dari Bukit Timbis hingga ke Pantai Pandawa.",
+      "pictureId": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Pandawa_Beach%2C_Kuta_Selatan_-_Bali.jpg/1024px-Pandawa_Beach%2C_Kuta_Selatan_-_Bali.jpg",
+      "alamat": "Kuta Selatan, Kabupaten Badung, Bali",
+      "rating": 4.6,
+      "kategori": "Pantai",
+      "cp": "-"
+    },
+    {
+      "id": "14",
+      "nama": "Pantai Pink",
+      "deskripsi": "Pantai Pink merupakan salah satu dari tujuh pantai di dunia yang memiliki pasir pantai berwarna pink, dan satu dari dua pantai di Indonesia yang memiliki pasir pantai berwarna pink.Pantai ini begitu tenang dan hanya memiliki ombak yang kecil sehingga membuat wisatawan lebih nyaman ketika bermain disana. Keindahan Pantai Pink pun terlihat sempurna dengan hamparan bukit di sekelilingnya.Di sisi kiri ada bukit dengan padang rumput yang luas dan dari bukit inilah pemandangan Pantai Pink terlihat sangat indah. Selain itu, ada juga tanjung yang eksotis di sisi kanan dengan gazebo yang memang disediakan di atasnya.",
+      "pictureId": "https://cdn.idntimes.com/content-images/post/20151112/pantaipink-0d53f07036f9e1b9c0b61d1dacfbb07c.jpg",
+      "alamat": "Sekaroh, Jerowaru, Kabupaten Lombok Timur, Nusa Tenggara Bar. 83672",
+      "rating": 4.2,
+      "kategori": "Pantai",
+      "cp": "082236343282"
+    },
+    {
+      "id": "15",
+      "nama": "Pantai Drini",
+      "deskripsi": "Pantai Drini adalah salah satu objek wisata yang terletak di Desa Banjarejo, Kecamatan Tanjungsari,Gunungkidul, Yogyakarta. Letaknya di sebelah timur Pantai Baron dan berjarak sekitar 1 km ke arah timur Pantai Sepanjang.Pantai ini belum banyak terjamah oleh wisatawan lokal maupun asing, karena letaknya yang berada di daerah terpencil. Sehingga, Pantai Drini ini dikenal dengan nama Pantai Perawan. Sebutan ini digunakan oleh masyarakat setempat karena kondisi Pantai Drini yang masih bersih, udara yang sejuk, air yang terasa dingin ditambah dengan hamparan pasir putih yang mempesona dan aliran airnya yang tidak seganas Pantai Parangtritis.",
+      "pictureId": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Pantai_Drini_Top_View.jpg/280px-Pantai_Drini_Top_View.jpg",
+      "alamat": "Daerah Istimewa Yogyakarta",
+      "rating": 4.5,
+      "kategori": "Pantai",
+      "cp": "-"
+    },
+    {
+      "id": "16",
+      "nama": "Pantai Klayar",
+      "deskripsi": "Pantai Klayar adalah sebuah pantai dengan pasir putih dan batu karang serta tebing-tebing batu yang mengelilingi. Pantai ini terletak di Pacitan, Jawa Timur dan berbatasan dengan Wonogiri, Jawa Tengah. Objek wisata Pantai Klayar memiliki garis pantai berpasir putih dengan dihiasi deretan pohon kelapa, serta menjulangnya bukit-bukit di pinggir pantai yang bisa didaki oleh wisatawan untuk melihat keindahan Pantai Klayar dari atas bukit. Selain pantai berpasir putih, Pantai Klayar memiliki fenomena unik yaitu ada sebuah celah di batu karang. Ketika ombak datang dengan cukup deras, sebagian airnya masuk ke bawah batu dan menyembur ke atas seolah sebuah air mancur raksasa yang bisa mencapai ketinggian hingga 10 meter.Air mancur ini juga disertai dengan suara mirip siulan sehingga sering disebut sebagai Seruling Laut.Satu lagi keunikannya, di deretan tebing karang di sisi timur inilah terdapat karang raksasa mirip Sphinx.",
+      "pictureId": "https://ik.imagekit.io/tk6ir0e7mng/uploads/2021/11/1636212160799.jpeg",
+      "alamat": "Kabupaten Pacitan, Jawa Timur 63554",
+      "rating": 4.5,
+      "kategori": "Pantai",
+      "cp": "-"
+    },
+    {
+      "id": "17",
+      "nama": "Pantai Karimun Jawa",
+      "deskripsi": "Pantai ini terletak di sebuah Kecamatan di Kabupaten Jepara, provinsi Jawa Tengah, Indonesia. Karimunjawa merupakan kepulauan yang terletak di tengah Laut Jawa. Nama Karimunjawa disinyalir pertama kali (menurut cerita) muncul dari sejarah saat putra sunan muria yang sekaligus murid sunan kudus yang dikenal nakal, Syekh Amir Hasan dibuang ke kepulauan tersebut. pulau karimunjawa bila dilihat dari kejauhan seperti kerimun-kerimun karena itulah pulau tersebut dinamai karimun asal kata kerimun-kerimun. Delimukan zamrud (en: emerald dove) mudah ditemukan di legon jelamun, pulau kemujan, Taman Nasional Karimunjawa, Jepara, Jawa Tengah.",
+      "pictureId": "https://cdns.klimg.com/merdeka.com/i/w/news/2020/10/24/1234995/670x335/kasus-covid-19-di-pulau-karimunjawa-jepara-nihil.jpg",
+      "alamat": "Karimunjawa, Kabupaten Jepara, Jawa Tengah",
+      "rating": 4.6,
+      "kategori": "Pantai",
+      "cp": "-"
+    },
+    {
+      "id": "18",
+      "nama": "Pantai Parangtritis",
+      "deskripsi": "Pantai Parangtritis terletak di Desa Parangtritis, Kapanéwon Kretek, Kabupaten Bantul, Daerah Istimewa Yogyakarta. Jaraknya kurang lebih 27 km dari pusat Kota Yogyakarta. Pantai ini menjadi salah satu destinasi wisata terkenal di Yogyakarta dan telah menjadi ikon pariwisata di Yogyakarta. Pantai Parangtritis juga memungkian wisatawan untuk menyaksikan matahari terbit dan matahari terbenam Pantai ini menawarkan aktivitas lain bagi para wisatawan seperti mengelilingi pantai dengan menggunakan motor ATV, kuda maupun delman, melakukan olahraga seperti berlari, sepak bola dan voli di pasir pantai, bermain di pinggir ombak, bermain layangan, atau sekadar duduk-duduk sambil menikmati suasana Pantai Parangtritis.",
+      "pictureId": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Dusk_till_dawn_%28cropped%29.jpg/800px-Dusk_till_dawn_%28cropped%29.jpg",
+      "alamat": "Kalurahan Parangtritis, Kapanéwon Kretek, Kabupaten Bantul, Daerah Istimewa Yogyakarta",
+      "rating": 4.6,
+      "kategori": "Pantai",
+      "cp": "-"
+    },
+    {
+      "id": "19",
+      "nama": "Pantai Pulau Merah",
+      "deskripsi": "Pulau Merah atau Pulo Merah ( Red Island dalam Bahasa Inggris) adalah sebuah pantai dan objek wisata di Kecamatan Pesanggaran, Kabupaten Banyuwangi, Provinsi Jawa Timur. Pantai ini dikenal karena sebuah bukit hijau kecil dengan tanah berwarna merah yang terletak di dekat bibir pantai. Ombak di kawasan Pulo Merah cukup menantang dan menjadi salah satu tempat ideal untuk penggemar olahraga selancar. Ombak di pantai ini tergolong cukup tinggi berkisar 3-5 meter dan cocok untuk pecinta olahraga selancar (surfing). Menurut penuturan warga setempat, turis-turis asal Prancis, Jerman, dan Australia sering berkunjung ke tempat ini.",
+      "pictureId": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Pulau_Merah.jpg/1280px-Pulau_Merah.jpg",
+      "alamat": "Dusun Pancer, Desa Sumberagung, Kecamatan Pesanggaran, Kabupaten Banyuwangi, Jawa Timur",
+      "rating": 4.8,
+      "kategori": "Pantai",
+      "cp": ""
+    },
+    {
+      "id": "20",
+      "nama": "Pantai Kuta",
+      "deskripsi": "Pantai Kuta adalah sebuah tempat pariwisata yang terletak di kecamatan Kuta, sebelah selatan Kota Denpasar, Bali, Indonesia. Daerah ini merupakan sebuah tujuan wisata turis mancanegara dan telah menjadi objek wisata andalan Pulau Bali sejak awal tahun 1970-an. Pantai Kuta terkenal memiliki ombak yang bagus untuk olahraga selancar (surfing),terutama bagi peselancar pemula. Selain keindahan pantai, wisata pantai Kuta juga menawarkan berbagai jenis hiburan seperti bar, restoran, pertokoan, restoran, hotel, dan toko-toko kelontong, serta pedagang kaki lima di sepanjang pantai menuju Pantai Legian.",
+      "pictureId": "https://indonesiakaya.com/wp-content/uploads/2020/10/pantai_kuta_bali_1200.jpg",
+      "alamat": "Kec. Kuta, Kabupaten Badung, Bali",
+      "rating": 4.5,
+      "kategori": "Pantai",
+      "cp": "-"
     }
   ]
 }
