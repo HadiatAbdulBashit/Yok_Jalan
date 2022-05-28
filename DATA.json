@@ -7,6 +7,7 @@
       "pictureId": "https://ik.imagekit.io/tvlk/blog/2020/01/wisata-edukasi-di-Indonesia-3-Traveloka.jpeg?tr=dpr-1,w-675",
       "alamat": "Jl. Terusan Sultan Agung No.2, Ngaglik, Kec. Batu, Kota Batu, Jawa Timur 65314",
       "rating": 4.7,
+      "kategori": "Museum",
       "cp": "0341595007"
     },
     {
@@ -16,6 +17,7 @@
       "pictureId": "https://ik.imagekit.io/tvlk/blog/2020/03/Museum-di-Jakarta-1-Wikipedia.jpg?tr=dpr-1,w-675",
       "alamat": "Jl. Medan Merdeka Barat No. 12, Kelurahan Gambir, Kecamatan Gambir, Jakarta Pusat 10110",
       "rating": 4.6,
+      "kategori": "Museum",
       "cp": "0213868172"
     },
     {
@@ -25,6 +27,7 @@
       "pictureId": "https://ik.imagekit.io/tvlk/blog/2018/08/Jakarta-Museum-Fatahillah-756302473.jpg?tr=dpr-1,w-675",
       "alamat": "Jl. Taman Fatahillah No. 1, Jakarta Barat, DKI Jakarta, Indonesia",
       "rating": 4.6,
+      "kategori": "Museum",
       "cp": "0216929101"
     },
     {
@@ -34,6 +37,7 @@
       "pictureId": "https://ik.imagekit.io/tvlk/blog/2019/10/Cards-05-The-Blanco-Renaissance-Museum.jpg?tr=dpr-1,w-675",
       "alamat": "Jl. Raya Campuhan, Sayan, Kecamatan Ubud, Kabupaten Gianyar, Bali 80571",
       "rating": 4.3,
+      "kategori": "Museum",
       "cp": "0361975502"
     },
     {
@@ -43,6 +47,7 @@
       "pictureId": "https://ik.imagekit.io/tvlk/blog/2020/03/wisata-budaya-indonesia-1.jpg?tr=dpr-1,w-675",
       "alamat": "Jl. Boyong No.KM 25, Kaliurang, Hargobinangun, Kec. Pakem, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55582",
       "rating": 4.7,
+      "kategori": "Museum",
       "cp": "0274895161"
     },
     {
@@ -52,6 +57,7 @@
       "pictureId": "https://ik.imagekit.io/tvlk/blog/2020/08/Museum-Tsunami-shutterstock_1389245342.jpeg?tr=dpr-1,w-675",
       "alamat": "Jl. Sultan Iskandar Muda, Sukaramai, Kec. Baiturrahman, Kota Banda Aceh, Aceh 23116",
       "rating": 4.6,
+      "kategori": "Museum",
       "cp": "065140774"
     },
     {
@@ -61,6 +67,7 @@
       "pictureId": "https://ik.imagekit.io/tvlk/blog/2021/01/Museum-Siwalima-1024x768.jpg?tr=dpr-1,w-675",
       "alamat": "Jl. Dr. Malaiholo, Taman Makmur, Kel. Nusaniwe, Kec. Nusaniwe, Kota Ambon, Maluku",
       "rating": 4.2,
+      "kategori": "Museum",
       "cp": "0911341652"
     },
     {
@@ -70,6 +77,7 @@
       "pictureId": "https://upload.wikimedia.org/wikipedia/commons/8/85/Museum_Geologi.JPG",
       "alamat": "Jl. Diponegoro No.57, Cihaur Geulis, Kec. Cibeunying Kaler, Kota Bandung, Jawa Barat 40122",
       "rating": 4.6,
+      "kategori": "Museum",
       "cp": "0227213822"
     },
     {
@@ -79,6 +87,7 @@
       "pictureId": "https://ik.imagekit.io/tvlk/blog/2020/01/wisata-edukasi-di-Indonesia-10-Wikipedia.jpg?tr=dpr-1,w-675 ",
       "alamat": "Jl. Perintis Kemerdekaan No.275, Srondol Kulon, Kec. Banyumanik, Kota Semarang, Jawa Tengah 50263",
       "rating": 4.5,
+      "kategori": "Museum",
       "cp": "0247475172"
     },
     {
@@ -88,6 +97,7 @@
       "pictureId": "https://upload.wikimedia.org/wikipedia/commons/9/90/KolongTangga2.jpg",
       "alamat": "Jl. Tirtodipuran No.26, Mantrijeron, Kec. Mantrijeron, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55143",
       "rating": 4.3,
+      "kategori": "Museum",
       "cp": "08112633977"
     },
     {
@@ -97,6 +107,7 @@
       "pictureId": "https://cdn.idntimes.com/content-images/post/20151112/nihiwatu-782a66e2f463da79ea6d8deeac7551c2.jpg",
       "alamat": "Kecamatan Waikabubak, Kabupaten Sumba Barat, Propinsi Nusa Tenggara Timur 87217, Indonesia.",
       "rating": 4.7,
+      "kategori": "Pantai",
       "cp": "-"
     },
     {
@@ -106,6 +117,7 @@
       "pictureId": "https://cdn.idntimes.com/content-images/post/20151112/pantaiora-9f63f6cd326a1fbc4cf6d01db0d6d1cb.jpg",
       "alamat": "Kec. Loura, Kabupaten Sumba Barat Daya, Nusa Tenggara Timur",
       "rating": 4.2,
+      "kategori": "Pantai",
       "cp": "082191124143"
     },
     {
@@ -115,6 +127,7 @@
       "pictureId": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Pandawa_Beach%2C_Kuta_Selatan_-_Bali.jpg/1024px-Pandawa_Beach%2C_Kuta_Selatan_-_Bali.jpg",
       "alamat": "Kuta Selatan, Kabupaten Badung, Bali",
       "rating": 4.6,
+      "kategori": "Pantai",
       "cp": "-"
     },
     {
@@ -124,6 +137,7 @@
       "pictureId": "https://cdn.idntimes.com/content-images/post/20151112/pantaipink-0d53f07036f9e1b9c0b61d1dacfbb07c.jpg",
       "alamat": "Sekaroh, Jerowaru, Kabupaten Lombok Timur, Nusa Tenggara Bar. 83672",
       "rating": 4.2,
+      "kategori": "Pantai",
       "cp": "082236343282"
     },
     {
@@ -133,6 +147,7 @@
       "pictureId": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Pantai_Drini_Top_View.jpg/280px-Pantai_Drini_Top_View.jpg",
       "alamat": "Daerah Istimewa Yogyakarta",
       "rating": 4.5,
+      "kategori": "Pantai",
       "cp": "-"
     },
     {
@@ -142,6 +157,7 @@
       "pictureId": "https://ik.imagekit.io/tk6ir0e7mng/uploads/2021/11/1636212160799.jpeg",
       "alamat": "Kabupaten Pacitan, Jawa Timur 63554",
       "rating": 4.5,
+      "kategori": "Pantai",
       "cp": "-"
     },
     {
@@ -151,6 +167,7 @@
       "pictureId": "https://cdns.klimg.com/merdeka.com/i/w/news/2020/10/24/1234995/670x335/kasus-covid-19-di-pulau-karimunjawa-jepara-nihil.jpg",
       "alamat": "Karimunjawa, Kabupaten Jepara, Jawa Tengah",
       "rating": 4.6,
+      "kategori": "Pantai",
       "cp": "-"
     },
     {
@@ -160,6 +177,7 @@
       "pictureId": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Dusk_till_dawn_%28cropped%29.jpg/800px-Dusk_till_dawn_%28cropped%29.jpg",
       "alamat": "Kalurahan Parangtritis, Kapanéwon Kretek, Kabupaten Bantul, Daerah Istimewa Yogyakarta",
       "rating": 4.6,
+      "kategori": "Pantai",
       "cp": "-"
     },
     {
@@ -169,6 +187,7 @@
       "pictureId": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Pulau_Merah.jpg/1280px-Pulau_Merah.jpg",
       "alamat": "Dusun Pancer, Desa Sumberagung, Kecamatan Pesanggaran, Kabupaten Banyuwangi, Jawa Timur",
       "rating": 4.8,
+      "kategori": "Pantai",
       "cp": ""
     },
     {
@@ -178,6 +197,7 @@
       "pictureId": "https://indonesiakaya.com/wp-content/uploads/2020/10/pantai_kuta_bali_1200.jpg",
       "alamat": "Kec. Kuta, Kabupaten Badung, Bali",
       "rating": 4.5,
+      "kategori": "Pantai",
       "cp": "-"
     }
   ]
