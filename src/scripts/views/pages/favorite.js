@@ -6,7 +6,7 @@ const Favorite = {
     },
   
     async afterRender() {
-      console('Ini halaman Favorit');
+      console.log('Ini halaman Favorit');
     },
   };
   

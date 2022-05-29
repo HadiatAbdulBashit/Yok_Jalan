@@ -6,7 +6,7 @@ const Explore = {
     },
   
     async afterRender() {
-      console('Ini halaman Jelajah');
+      console.log('Ini halaman Jelajah');
     },
   };
   

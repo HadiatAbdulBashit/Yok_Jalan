@@ -6,7 +6,7 @@ const Home = {
     },
   
     async afterRender() {
-      console('Ini halaman home');
+      console.log('Ini halaman home');
     },
   };
   

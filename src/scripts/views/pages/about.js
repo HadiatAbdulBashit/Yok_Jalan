@@ -6,7 +6,7 @@ const About = {
     },
   
     async afterRender() {
-      console('Ini halaman Tentang Kami');
+      console.log('Ini halaman Tentang Kami');
     },
   };
   
