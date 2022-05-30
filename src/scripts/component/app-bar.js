@@ -31,6 +31,7 @@ class AppBar extends HTMLElement {
         <nav class="navbar navbar-expand-lg bg__navbar p-3 fixed-top">
           <div class="container-fluid">
             <a class="navbar-brand fs-3 nav__title" href="#">
+              <img src="./Logo.png" alt="Yok Jalan" height="60">
               Yok Jalan
             </a>
             <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
