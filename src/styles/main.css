@@ -10,3 +10,53 @@ body, html {
     width: 100%;
     height: 100%;
 }
+
+#mainContent {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* 
+
+Item / Card
+
+*/
+
+.item-header {
+    position: relative;
+    background-color: #ffffff60;
+}
+
+.item-image {
+    height: 250px;
+    min-height: 250px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.item-header-rating {
+    position: absolute;
+    padding: 8px;
+    top: 20px;
+    right: 0;
+    display: inline-block;
+    background-color: #00000070;
+    color: white;
+}
+
+.rating-score {
+    margin-left: 7px;
+    font-weight: bold;
+}
+
+.card-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
+.card-title {
+    text-decoration: none;
+}
