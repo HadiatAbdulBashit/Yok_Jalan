@@ -8,13 +8,13 @@ import App from './views/app';
 console.log('Yok Jalan!');
 
 const app = new App({
-    content: document.querySelector('#mainContent'),
+  content: document.querySelector('#mainContent'),
 });
 
 window.addEventListener('hashchange', () => {
-    app.renderPage();
+  app.renderPage();
 });
 
 window.addEventListener('load', () => {
-    app.renderPage();
+  app.renderPage();
 });

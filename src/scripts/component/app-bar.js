@@ -1,10 +1,10 @@
 class AppBar extends HTMLElement {
-    connectedCallback() {
-        this._render();
-    }
+  connectedCallback() {
+    this._render();
+  }
 
-    _render() {
-        this.innerHTML = `
+  _render() {
+    this.innerHTML = `
         <style>
           .bg__navbar {
             background-color: #00C2FF;
@@ -28,7 +28,7 @@ class AppBar extends HTMLElement {
           }
         </style>
         
-        <nav class="navbar navbar-expand-lg bg__navbar p-3 sticky-top">
+        <nav class="navbar navbar-expand-lg bg__navbar p-3 fixed-top">
           <div class="container-fluid">
             <a class="navbar-brand fs-3 nav__title" href="#">
               Yok Jalan
@@ -46,8 +46,8 @@ class AppBar extends HTMLElement {
             </div>
           </div>
         </nav>
-        `
-    }
+        `;
+  }
 }
 
 customElements.define('app-bar', AppBar);
