@@ -10,9 +10,9 @@ const Explore = {
   },
 
   afterRender() {
-    const restaurantContainer = document.querySelector('#items');
+    const destinationContainer = document.querySelector('#items');
     data.destinations.forEach((item) => {
-      restaurantContainer.innerHTML += createItemTemplate(item);
+      destinationContainer.innerHTML += createItemTemplate(item);
     });
   },
 };

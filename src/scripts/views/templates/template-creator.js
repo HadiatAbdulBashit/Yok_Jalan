@@ -15,4 +15,29 @@ const createItemTemplate = (destination) => `
     </div>
   `;
 
-export { createItemTemplate };
+const createDetailTemplate = (destination) => `
+  <div class="row">
+    <h2 class="text-center mb-5">${destination.nama}</h2>
+    <div class="col-md-4">
+      <img src="${destination.pictureId}" alt="logo" class="img-fluid rounded">
+    </div>
+    <div class="col-md-8">
+      <div class="row">
+        <div class="col">
+          <p class="lead text-muted">Deskripsi</p>
+          <p class="lead">${destination.deskripsi}</p>
+          <p class="lead text-muted">Alamat</p>
+          <p class="lead">${destination.alamat}</p>
+          <p class="lead text-muted">Rating</p>
+          <p class="lead">${destination.rating}</p>
+          <p class="lead text-muted">Kategori</p>
+          <p class="lead">${destination.kategori}</p>
+          <p class="lead text-muted">No Telepon</p>
+          <p class="lead">${destination.cp}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+`;
+
+export { createItemTemplate, createDetailTemplate };
