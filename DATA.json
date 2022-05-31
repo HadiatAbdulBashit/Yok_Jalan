@@ -34,7 +34,7 @@
       "id": "4",
       "nama": "Museum Blanco Renaissance",
       "deskripsi": "Museum Blanco Renaissance adalah sebuah museum yang berlokasi di Ubud, provinsi Bali, Indonesia. Museum ini berdiri dari keinginan Antonio Blanco, seorang pelukis untuk suatu hari nanti memiliki museum yang akhirnya mulai terwujud juga dan diberi nama The Blanco Renaissance Museum. Museum Blanco menyediakan fasilitas untuk perjalanan seni. Pengunjung dapat menemukan studio, galeri, toko suvenir, perpustakaan, kafe, amfiteater, dan kuil keluarga Blanco. Pengunjung juga dipersilahkan untuk menjelajahi dunia seni dengan mengunjungi perpustakaan di mana sebagian besar koleksi buku yang ada adalah tentang seni & budaya. Beberapa buku dalam koleksi ini mewakili ketertarikan seni Don Antonio Blanco dan Mario Blanco. Perpustakaan juga bertukar buku dari berbagai museum di seluruh dunia.",
-      "pictureId": "https://ik.imagekit.io/tvlk/blog/2019/10/Cards-05-The-Blanco-Renaissance-Museum.jpg?tr=dpr-1,w-675",
+      "pictureId": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Antonio_Blanco_le_mus%C3%A9e.JPG/800px-Antonio_Blanco_le_mus%C3%A9e.JPG",
       "alamat": "Jl. Raya Campuhan, Sayan, Kecamatan Ubud, Kabupaten Gianyar, Bali 80571",
       "rating": 4.3,
       "kategori": "Museum",
@@ -236,7 +236,7 @@
       "pictureId": "https://asset.kompas.com/crops/JAI-OD0Mk6a-48b4PyQs1v72RFY=/0x0:739x493/750x500/data/photo/2020/03/20/5e74a47552a87.jpg",
       "deskripsi": "Gunung Ijen adalah sebuah gunung berapi yang terletak di perbatasan Kabupaten Banyuwangi dan Kabupaten Bondowoso, Jawa Timur, Indonesia. Gunung ini memiliki ketinggian 2.386 mdpl dan terletak berdampingan dengan Gunung Merapi. Gunung Ijen terakhir meletus pada tahun 1999. Salah satu fenomena alam yang paling terkenal dari Gunung Ijen adalah blue fire (api biru) di dalam kawah yang terletak di puncak gunung tersebut. Pendakian gunung ini bisa dimulai dari dua tempat, yakni dari Banyuwangi atau dari Bondowoso.",
       "alamat": "Desa Tamansari, Kecamatan Licin, Kabupaten Banyuwangi, Jawa Timur.",
-      "rating":4.7,
+      "rating": 4.7,
       "kategori": "Gunung",
       "cp": "-"
     },
@@ -246,7 +246,7 @@
       "pictureId": "https://asset.kompas.com/crops/WYcYPfavcrfsNzSm6bXugeuKloA=/0x0:740x493/750x500/data/photo/2021/03/27/605e9f16e805f.jpg",
       "deskripsi": "Gunung Rinjani adalah gunung yang berlokasi di Pulau Lombok, Nusa Tenggara Barat. Gunung yang merupakan gunung berapi kedua tertinggi di Indonesia dengan ketinggian 3.726 mdpl serta terletak pada lintang 8º25' LS dan 116º28' BT ini merupakan gunung favorit bagi pendaki Indonesia karena keindahan pemandangannya. Gunung ini merupakan bagian dari Taman Nasional Gunung Rinjani yang memiliki luas sekitar 41.330 ha dan ini akan diusulkan penambahannya sehingga menjadi 76.000 ha ke arah barat dan timur.",
       "alamat": "Sembalun Lawang, Kec. Sembalun, Kabupaten Lombok Timur, Nusa Tenggara Barat.",
-      "rating":4.5,
+      "rating": 4.5,
       "kategori": "Gunung",
       "cp": "-"
     },
@@ -256,7 +256,7 @@
       "pictureId": "https://ilmugeografi.com/wp-content/uploads/2022/03/danau-kelimutu.jpg",
       "deskripsi": "Gunung Kelimutu adalah gunung berapi yang terletak di Pulau Flores, Provinsi NTT, Indonesia. Gunung ini memiliki tiga buah danau Diarsipkan 2017-03-04 di Wayback Machine. kawah di puncaknya. Danau ini dikenal dengan nama Danau Tiga Warna karena memiliki tiga warna yang berbeda, yaitu merah, biru, dan putih. Walaupun begitu, warna-warna tersebut selalu berubah-ubah seiring dengan perjalanan waktu.Kelimutu merupakan gabungan kata dari 'keli' yang berarti gunung dan kata 'mutu' yang berarti mendidih.",
       "alamat": "Desa Pemo, Kecamatan Kelimutu, Kabupaten Ende.",
-      "rating":4.6,
+      "rating": 4.6,
       "kategori": "Gunung",
       "cp": "-"
     },
@@ -266,7 +266,7 @@
       "pictureId": "https://1.bp.blogspot.com/-mpOZYrxYAso/XlCI71nobII/AAAAAAAAByE/aZfWExqx2QcUFWdg1KZD5o-M-Fb8IZwiACLcBGAsYHQ/s1600/IMG_20200222_083511061.jpg",
       "deskripsi": "Gunung Patuha merupakan sebuah gunung yang terdapat di Rancabali, Ciwidey, Kabupaten Bandung, Jawa Barat yang memiliki ketinggian 2.434 meter.[2] Gunung Patuha memiliki kawah yang sangat eksotik, yaitu kawah putih. Kawah yang terbentuk dari letusan gunung patuha itu memiliki dinding kawah dan air yang berwarna putih. Gunung Patuha mempunyai kawasan hutan Dipterokarp Bukit, hutan Dipterokarp Atas, hutan Montane, dan Hutan Ericaceous atau hutan gunung.",
       "alamat": "Sugihmukti, Kec. Pasirjambu, Kabupaten Bandung, Jawa Barat",
-      "rating":4.6,
+      "rating": 4.6,
       "kategori": "Gunung",
       "cp": "-"
     },
@@ -276,7 +276,7 @@
       "pictureId": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Uprising-mount_kerinci.jpg/1280px-Uprising-mount_kerinci.jpg",
       "deskripsi": "Gunung Kerinci merupakan gunung berapi bertipe stratovulcano yang masih aktif dan terakhir kali meletus pada tahun 2009. Pada puncak Gunung Kerinci, dapat melihat dikejauhan membentang pemandangan indah Kota Jambi, Padang, dan Bengkulu. Bahkan Samudera Hindia yang luas dapat terlihat dengan jelas. Gunung Kerinci memiliki kawah seluas 400 x 120 meter dan berisi air yang berwarna hijau. Di sebelah timur terdapat Rawa Bento, rawa berair jernih tertinggi di Sumatra. Di belakangnya terdapat Gunung Tujuh dengan kawah yang hampir tak tersentuh.",
       "alamat": "Lubuk Gadang Sel., Kec. Sangir, Kabupaten Solok Selatan, Sumatera Barat",
-      "rating":4.4,
+      "rating": 4.4,
       "kategori": "Gunung",
       "cp": "-"
     },
@@ -286,7 +286,7 @@
       "pictureId": "https://www.gregmaud.com/wp-content/uploads/2018/07/Carstensz-Pyramid.jpg",
       "deskripsi": "Puncak Jaya Wijaya atau Piramida Carstensz ialah sebuah puncak tertinggi yang menjadi bagian dari Pegunungan Barisan Sudirman yang terdapat di Provinsi Papua, Indonesia. Puncak Jaya atau Piramida Carstensz mempunyai ketinggian 4.884 mdpl dan di sekitarnya terdapat gletser dengan nama yang sama yakni gletser Carstensz, satu-satunya gletser tropika di Indonesia, yang tersisa dan secara perlahan mulai menipis akibat pemanasan global. Puncak ini merupakan gunung tertinggi di Indonesia kawasan Oceania. Puncak Jaya adalah salah satu dari tujuh puncak tertinggi di dunia.",
       "alamat": "Tembagapura, Kec. Tembagapura, Kabupaten Mimika, Papua",
-      "rating":4.5,
+      "rating": 4.5,
       "kategori": "Gunung",
       "cp": "-"
     },
@@ -296,7 +296,7 @@
       "pictureId": "https://www.klikkoran.com/wp-content/uploads/2021/02/gununggede.jpg",
       "deskripsi": "Gunung Gede merupakan sebuah gunung api bertipe stratovolcano yang berada di Pulau Jawa, Indonesia. Gunung Gede berada dalam ruang lingkup Taman Nasional Gede Pangrango, yang merupakan salah satu dari lima taman nasional yang pertama kali diumumkan di Indonesia pada tahun 1980. Gunung ini berada di dua wilayah kabupaten yaitu Kabupaten Cianjur dan Sukabumi, dengan ketinggian 1.000 - 2.958 m. dpl, dan berada pada lintang 106°51' - 107°02' BT dan 64°1' - 65°1 LS. Suhu rata-rata di puncak gunung Gede 18 °C dan di malam hari suhu puncak berkisar 5 °C, dengan curah hujan rata-rata 3.600 mm/tahun. Gerbang utama menuju gunung ini adalah dari Cibodas dan Cipanas.",
       "alamat": "Cipendawa, Kec. Pacet, Kabupaten Cianjur, Jawa Barat",
-      "rating":4.7,
+      "rating": 4.7,
       "kategori": "Gunung",
       "cp": "-"
     },
@@ -306,7 +306,7 @@
       "pictureId": "http://cagarbudaya.kemdikbud.go.id/file/doc/objek/PO2015071300003-20161230133206.jpg",
       "deskripsi": "Lawang Sewu adalah bangunan perkantoran yang terletak di seberang Tugu Muda, Kota Semarang, Jawa Tengah, Indonesia, yang dibangun sebagai kantor pusat Nederlandsch-Indische Spoorweg Maatschappij (NIS). Bangunan ini berstatus sebagai aset Kereta Api Indonesia (KAI) karena merupakan buah dari perebutan NIS oleh Djawatan Kereta Api Republik Indonesia (DKARI) pada masa Perang Kemerdekaan. Saat ini bangunan tersebut dijadikan sebagai museum dan galeri sejarah perkeretaapian oleh Unit Pusat Pelestarian dan Desain Arsitektur dan KAI Wisata.",
       "alamat": "Jl. Pemuda, Sekayu, Kec. Semarang Tengah, Kota Semarang, Jawa Tengah 50132",
-      "rating":4.6,
+      "rating": 4.6,
       "kategori": "Tempat Bersejarah",
       "cp": "-"
     },
@@ -316,7 +316,7 @@
       "pictureId": "https://hariansinggalang.co.id/wp-content/uploads/2015/12/jam-gadang.jpg",
       "deskripsi": "Jam Gadang adalah menara jam yang menjadi penanda atau ikon Kota Bukittinggi, Sumatra Barat, Indonesia. Menara jam ini memiliki jam dengan ukuran besar di empat sisinya sehingga dinamakan Jam Gadang, sebutan bahasa Minangkabau yang berarti ‘jam besar’.Jam Gadang menjadi lokasi peristiwa penting pada masa sekitar kemerdekaan Indonesia, seperti pengibaran bendera merah putih (1945), Demonstrasi Nasi Bungkus (1950), dan pembunuhan 187 penduduk setempat oleh militer Indonesia atas tuduhan terlibat Pemerintahan Revolusioner Republik Indonesia (1959).",
       "alamat": "Benteng Pasar Atas, Guguk Panjang, Kota Bukittinggi, Sumatera Barat 26136",
-      "rating":4.5,
+      "rating": 4.5,
       "kategori": "Tempat Bersejarah",
       "cp": "-"
     },
@@ -326,7 +326,7 @@
       "pictureId": "https://i2.wp.com/blog.tripcetera.com/wp-content/uploads/2019/04/Istana-Maemun.jpg",
       "deskripsi": "Istana Maimun adalah istana Kesultanan Deli yang merupakan salah satu ikon Kota Medan, Sumatra Utara. Istana ini terletak di Jalan Brigadir Jenderal Katamso, Aur, Medan Maimun.Istana Maimun didesain oleh arsitek Capt. Theodoor van Erp, seorang tentara Kerajaan Belanda yang dibangun atas perintah Sultan Deli, Sultan Ma'moen Al Rasyid. Pembangunan istana ini dimulai dari 26 Agustus 1888 dan selesai pada 18 Mei 1891. Istana Maimun memiliki luas sebesar 2.772 m2 dan 30 ruangan.Istana Maimun terdiri dari 2 lantai dan memiliki 3 bagian yaitu bangunan induk, bangunan sayap kiri dan bangunan sayap kanan. Bangunan istana ini menghadap ke Timur dan pada sisi depan terdapat bangunan Masjid Al-Mashun atau yang lebih dikenal dengan sebutan Masjid Raya Medan.",
       "alamat": "Jl. Brigjend Katamso No.66, A U R, Kec. Medan Maimun, Kota Medan, Sumatera Utara 20151",
-      "rating":4.4,
+      "rating": 4.4,
       "kategori": "Tempat Bersejarah",
       "cp": "-"
     },
@@ -336,7 +336,7 @@
       "pictureId": "https://dirgantaracarrental.com/wp-content/uploads/2020/10/gedung-sate1.jpg",
       "deskripsi": "Gedung Sate dengan ciri khasnya berupa ornamen tusuk sate pada menara sentralnya, telah lama menjadi penanda atau markah tanah Kota Bandung yang tidak saja dikenal masyarakat di Jawa Barat, tetapi juga seluruh Indonesia bahkan model bangunan itu dijadikan pertanda bagi beberapa bangunan dan tanda-tanda kota di Jawa Barat. Misalnya bentuk gedung bagian depan Stasiun Kereta Api Tasikmalaya. Mulai dibangun tahun 1920, gedung berwarna putih ini masih berdiri kokoh namun anggun dan kini berfungsi sebagai gedung pusat pemerintahan kota bandung.",
       "alamat": "Jl. Diponegoro No.22, Citarum, Kec. Bandung Wetan, Kota Bandung, Jawa Barat 40115",
-      "rating":4.6,
+      "rating": 4.6,
       "kategori": "Tempat Bersejarah",
       "cp": "0224233347"
     },
@@ -346,7 +346,7 @@
       "pictureId": "https://koran-jakarta.com/images/article/monas-dibuka-kembali-usai-lebaran-220406003026.jpg",
       "deskripsi": "Monumen Nasional atau yang disingkat dengan Monas atau Tugu Monas adalah monumen peringatan setinggi 132 meter (433 kaki) yang didirikan untuk mengenang perlawanan dan perjuangan rakyat Indonesia untuk merebut kemerdekaan dari pemerintahan kolonial Hindia Belanda. Pembangunan monumen ini dimulai pada tanggal 17 Agustus 1961 di bawah perintah presiden Soekarno dan diresmikan sehingga dibuka untuk umum pada tanggal 12 Juli 1975. Tugu ini dimahkotai lidah api yang dilapisi lembaran emas yang melambangkan semangat perjuangan yang menyala-nyala dari rakyat Indonesia. Monumen Nasional terletak tepat di tengah Lapangan Medan Merdeka, Jakarta Pusat.",
       "alamat": "Gambir, Kecamatan Gambir, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta",
-      "rating":4.6,
+      "rating": 4.6,
       "kategori": "Tempat Bersejarah",
       "cp": "0213822255"
     },
@@ -356,7 +356,7 @@
       "pictureId": "http://cagarbudaya.kemdikbud.go.id/file/doc/objek/PO2015070700009-20161230140943.jpg",
       "deskripsi": "Pengasingan Ir. Soekarno diawali dengan pertemuan politik di rumah Muhammad Husni Thamrin di Jakarta, pada tanggal 1 Agustus 1933. Ir. Soekarno ditangkap oleh seorang Komisaris Polisi ketika ke luar dari rumah Muhammad Husni Thamrin dan kemudian dipenjarakan selama delapan bulan tanpa proses pengadilan. Pada tanggal 28 Desember 1933, Gubernur Jenderal Pemerintah Kolonial Hindia Belanda, De Jonge, mengeluarkan surat keputusan pengasingan Ir. Soekarno (saat itu berusia 32 tahun) ke Ende, Flores, Nusa Tenggara Timur. Ir. Soekarno diasingkan atau dibuang ke Ende karena kegiatan politiknya membahayakan Pemerintah Kolonial Hindia Belanda. Ir. Soekarno dan keluarganya bertolak dari Surabaya menuju Flores dengan kapal barang KM van Riebeeck.",
       "alamat": "Jl. Perwira, Kel. Kotaraja, Kec. Ende Utara, Kabupaten Ende, Nusa Tenggara Tim.",
-      "rating":4.5,
+      "rating": 4.5,
       "kategori": "Tempat Bersejarah",
       "cp": "-"
     },
@@ -366,7 +366,7 @@
       "pictureId": "https://www.scmedia.id/wp-content/uploads/2020/12/misqal-novio-reeza-YZKSPGxBkMY-unsplash-1.jpg",
       "deskripsi": "Masjid Raya yang asli dibangun pada tahun 1612 di masa pemerintahan Sultan Iskandar Muda. Ada juga yang mengatakan bahwa Masjid Raya Baiturrahman yang asli dibangun lebih awal pada tahun 1292 oleh Sultan Alaidin Mahmudsyah. Masjid Kerajaan yang asli menampilkan atap jerami berlapis-lapis yang merupakan fitur khas arsitektur Aceh. Ketika Kolonial Hindia Belanda menyerang Kesultanan Aceh pada 10 April 1873, masyarakat Aceh menggunakan Masjid Raya yang asli sebagai benteng pertempuran, dan menyerang pasukan Royal Belanda dari dalam masjid. Pasukan Royal Belanda pun membalas dengan menembakkan suar ke atap jerami masjid, yang menyebabkan masjid terbakar.",
       "alamat": "Jl. Moh. Jam No.1, Kp. Baru, Kec. Baiturrahman, Kota Banda Aceh, Aceh",
-      "rating":4.9,
+      "rating": 4.9,
       "kategori": "Tempat Bersejarah",
       "cp": "-"
     },
@@ -376,7 +376,7 @@
       "pictureId": "https://cdns.klimg.com/kapanlagi.com/p/headline/476x238/benteng-fort-rotterdam-spot-liburan-waj-bf8249.jpg",
       "deskripsi": "Fort Rotterdam atau Benteng Ujung Pandang (Jum Pandang) adalah sebuah benteng peninggalan Kerajaan Gowa-Tallo. Benteng ini dibangun pada tahun 1545 oleh Raja Gowa ke-9 yang bernama I manrigau Daeng Bonto Karaeng Lakiung . Awalnya benteng ini berbahan dasar tanah liat, namun pada masa pemerintahan Raja Gowa ke-14 Sultan Alauddin konstruksi benteng ini diganti menjadi batu padas yang bersumber dari Pegunungan Karst yang ada di daerah Maros. Benteng Ujung Pandang ini berbentuk seperti seekor penyu yang hendak merangkak turun ke lautan. Dari segi bentuknya sangat jelas filosofi Kerajaan Gowa, bahwa penyu dapat hidup di darat maupun di laut. Begitu pun dengan Kerajaan Gowa yang berjaya di daratan maupun di lautan.",
       "alamat": "Jl. Ujung Pandang, Bulo Gading, Kec. Ujung Pandang, Kota Makassar, Sulawesi Selatan 90171",
-      "rating":4.5,
+      "rating": 4.5,
       "kategori": "Tempat Bersejarah",
       "cp": "-"
     },
@@ -386,7 +386,7 @@
       "pictureId": "https://www.asianews.it/files/img/INDONESIA_-_Borobudur_Temple_in_Central_Java.jpg",
       "deskripsi": "Candi Borobudur atau yang disingkat Borobudur adalah sebuah candi Buddha yang terletak di Borobudur, Magelang, Jawa Tengah, Indonesia. Candi ini terletak kurang lebih 100 km di sebelah barat daya Semarang, 86 km di sebelah barat Surakarta, dan 40 km di sebelah barat laut Yogyakarta. Candi dengan banyak stupa ini didirikan oleh para penganut agama Buddha Mahayana sekitar tahun 800-an Masehi pada masa pemerintahan wangsa Syailendra. Borobudur adalah candi atau kuil Buddha terbesar di dunia, sekaligus salah satu monumen Buddha terbesar di dunia.",
       "alamat": "Jl. Badrawati, Kw. Candi Borobudur, Borobudur, Kec. Borobudur, Kabupaten Magelang, Jawa Tengah",
-      "rating":4.7,
+      "rating": 4.7,
       "kategori": "Tempat Bersejarah",
       "cp": "0293788266"
     },
@@ -396,7 +396,7 @@
       "pictureId": "https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2020/08/22/1747449169.jpg",
       "deskripsi": "Candi Prambanan atau Candi Roro Jonggrang adalah kompleks candi Hindu (Syaiwa) terbesar di Indonesia yang dibangun pada abad ke-9 masehi. Candi ini dipersembahkan untuk Trimurti, tiga dewa utama Hindu yaitu dewa Brahma sebagai dewa pencipta, dewa Wisnu sebagai dewa pemelihara, dan dewa Siwa sebagai dewa pemusnah. Berdasarkan prasasti Siwagrha nama asli kompleks candi ini adalah Siwagrha (bahasa Sanskerta yang bermakna 'Rumah Siwa'), dan memang di garbagriha (ruang utama) candi ini bersemayam arca Siwa Mahadewa setinggi tiga meter, dikarenakan aliran Syaiwa yang mengutamakan pemujaan dewa Siwa di candi ini.",
       "alamat": "Jl. Raya Solo - Yogyakarta No.16, Kranggan, Bokoharjo, Kec. Prambanan, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55571",
-      "rating":4.7,
+      "rating": 4.7,
       "kategori": "Tempat Bersejarah",
       "cp": "0274496401"
     }
