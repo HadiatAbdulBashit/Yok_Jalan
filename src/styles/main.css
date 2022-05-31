@@ -13,7 +13,7 @@ body, html {
 
 #mainContent {
     max-width: 1200px;
-    margin: 110px auto 20px;
+    padding-top: 8rem;
 }
 
 /* 

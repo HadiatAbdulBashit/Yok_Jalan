@@ -25,12 +25,12 @@ class AppJumbotron extends HTMLElement {
             }
           </style>
   
-          <div class="jumbotron">
-            <div class="row d-flex justify-content-evenly pt-5 align-items-center">
-                <div class="col-lg-4 col-md-3">
-                    <img src="../../images/vector/tourists.png" alt="gambar">
+          <div class="jumbotron pt-5 mt-5">
+            <div class="row d-flex justify-content-evenly pt-5 align-items-center g-0 mt-3 text-center">
+                <div class="col-lg-5">
+                    <img src="../../images/vector/tourists.png" alt="gambar" class="img-fluid">
                 </div>
-                <div class="col-lg-6 col-md-5 text-center">
+                <div class="col-lg-6">
                     <h2 class="jumbotron__title">Nikmati Keindahan Wisata Nusantara</h2>
                     <p class="jumbotron__tagline">Jelajahi setiap tempat wisata lokal yang ada</p>
                 </div>

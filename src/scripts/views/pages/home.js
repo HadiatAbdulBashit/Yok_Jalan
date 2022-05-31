@@ -7,7 +7,7 @@ const Home = {
   render() {
     return `
     <app-welcome></app-welcome>
-    <h2 class='pt-5 ps-2'>Rekomendasi</h2>
+    <h2 class='pt-5 pb-3 mb-3 mt-5 text-center border-bottom'>Rekomendasi</h2>
     <div id='items' class='row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xxl-4 g-0'></div>
     `;
   },
