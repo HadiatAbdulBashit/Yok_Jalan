@@ -18,6 +18,12 @@ class App {
     } else {
       this._jumbotron.hidden = false;
     }
+
+    const skipLinkElem = document.querySelector('.skip-link');
+    skipLinkElem.addEventListener('click', (event) => {
+      event.preventDefault();
+      document.querySelector('#mainContent').focus();
+    });
   }
 }
 
