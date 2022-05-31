@@ -8,6 +8,7 @@ import App from './views/app';
 console.log('Yok Jalan!');
 
 const app = new App({
+  jumbotron: document.querySelector('#jumbotron'),
   content: document.querySelector('#mainContent'),
 });
 

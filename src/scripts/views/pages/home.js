@@ -6,7 +6,6 @@ import '../../component/app-welcome';
 const Home = {
   render() {
     return `
-    <app-jumbotron></app-jumbotron>
     <app-welcome></app-welcome>
     <h2 class='pt-5 ps-2'>Rekomendasi</h2>
     <div id='items' class='row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xxl-4 g-0'></div>
