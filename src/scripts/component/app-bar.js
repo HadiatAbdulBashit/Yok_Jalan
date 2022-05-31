@@ -7,6 +7,10 @@ class AppBar extends HTMLElement {
     this.innerHTML = `
         <style>
           .bg__navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 99;
             background-color: #00C2FF;
             border-radius: 0px 0px 20px 20px;
           }
@@ -28,7 +32,7 @@ class AppBar extends HTMLElement {
           }
         </style>
         
-        <nav class="navbar navbar-expand-lg bg__navbar p-3 fixed-top">
+        <nav class="navbar navbar-expand-lg bg__navbar p-3">
           <div class="container-fluid">
             <a class="navbar-brand fs-3 nav__title" href="#">
               <img src="./Logo.png" alt="Yok Jalan" height="60">

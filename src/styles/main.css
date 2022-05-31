@@ -11,6 +11,27 @@ body, html {
     height: 100%;
 }
 
+/* 
+
+Skip link
+
+*/
+
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background-color: #ffffff;
+    color: #7392E1;
+    padding: 8px;
+    border-radius: 20px;
+    z-index: 100;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
 #mainContent {
     max-width: 1200px;
     padding-top: 8rem;
