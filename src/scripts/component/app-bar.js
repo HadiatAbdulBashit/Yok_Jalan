@@ -7,6 +7,10 @@ class AppBar extends HTMLElement {
     this.innerHTML = `
         <style>
           .bg__navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 99;
             background-color: #00C2FF;
             border-radius: 0px 0px 20px 20px;
           }
@@ -28,7 +32,7 @@ class AppBar extends HTMLElement {
           }
         </style>
         
-        <nav class="navbar navbar-expand-lg bg__navbar p-3 fixed-top">
+        <nav class="navbar navbar-expand-lg bg__navbar p-3">
           <div class="container-fluid">
             <a class="navbar-brand fs-3 nav__title" href="#">
               <img src="./Logo.png" alt="Yok Jalan" height="60">
@@ -40,7 +44,7 @@ class AppBar extends HTMLElement {
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav">
                 <a class="nav-link active nav__item" aria-current="page" href="#/home">Beranda</a>
-                <a class="nav-link active nav__item" href="#/explore">Jelajah</a>
+                <a class="nav-link active nav__item" href="#/explore/all">Jelajah</a>
                 <a class="nav-link active nav__item" href="#/favorite">Favorit</a>
                 <a class="nav-link active nav__item" href="#/about">Tentang Kami</a>
               </div>

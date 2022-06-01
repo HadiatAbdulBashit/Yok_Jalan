@@ -1,6 +1,6 @@
 const createItemTemplate = (destination) => `
     <div class="col">
-      <div class="card m-2 border-0 rounded-5 bg-secondary bg-opacity-25 ">
+      <div class="card shadow m-2 bg-light border-5 border-light">
         <div class="item-header">
           <img src="${destination.pictureId}" class="card-img-top img-fluid item-image" alt="Gambar ${destination.nama}" loading="lazy">
           <div class="item-header-rating rounded-start">
@@ -17,13 +17,11 @@ const createItemTemplate = (destination) => `
 
 const createDetailTemplate = (destination) => `
   <div class="row">
-    <h2 class="text-center mb-5">${destination.nama}</h2>
-    <div class="col-md-4">
+    <h2 class="text-center">${destination.nama}</h2>
+    <div class="col-md-4 mt-3">
       <img src="${destination.pictureId}" alt="logo" class="img-fluid rounded">
     </div>
-    <div class="col-md-8">
-      <div class="row">
-        <div class="col">
+    <div class="col-md-8 mt-3">
           <p class="lead text-muted">Deskripsi</p>
           <p class="lead">${destination.deskripsi}</p>
           <p class="lead text-muted">Alamat</p>
@@ -34,8 +32,6 @@ const createDetailTemplate = (destination) => `
           <p class="lead">${destination.kategori}</p>
           <p class="lead text-muted">No Telepon</p>
           <p class="lead">${destination.cp}</p>
-        </div>
-      </div>
     </div>
   </div>
 `;
