@@ -3,9 +3,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/main.css';
 import './component/app-bar';
 import './component/app-footer';
+import './component/app-category-bar';
+import './component/app-category';
 import App from './views/app';
-
-console.log('Yok Jalan!');
 
 const app = new App({
   jumbotron: document.querySelector('#jumbotron'),

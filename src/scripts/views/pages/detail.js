@@ -5,7 +5,7 @@ import data from '../../../../DATA.json';
 const Detail = {
   render() {
     return `
-      <div id='detail' class='row row-cols-1 g-0'></div>
+      <div id='detail' class='gx-0 mx-4'></div>
     `;
   },
 
