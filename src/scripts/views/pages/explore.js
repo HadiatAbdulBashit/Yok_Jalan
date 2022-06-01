@@ -6,11 +6,8 @@ import '../../component/app-search';
 const Explore = {
   render() {
     return `
-<<<<<<< HEAD
-    <app-search></app-search>
-=======
+      <app-search></app-search>
       <app-category-bar></app-category-bar>
->>>>>>> 4a2a69a220327b63dab0c250532da8ec0f46cf24
       <div id='items' class='row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xxl-4 g-0'></div>
     `;
   },
