@@ -1,9 +1,10 @@
 import '../../component/app-dev-team';
+import '../../component/app-aboutus';
 
 const About = {
   async render() {
     return `
-          <h2 class="">Ini Halaman Tentang Kami</h2>
+          <app-aboutus></app-aboutus>
           <app-dev-team></app-dev-team>
           `;
   },
