@@ -1,4 +1,4 @@
-class AppDevCard extends HTMLElement {
+class AppDevTeam extends HTMLElement {
   connectedCallback() {
     this._render();
   }
@@ -17,4 +17,4 @@ class AppDevCard extends HTMLElement {
   }
 }
 
-customElements.define('app-dev-card', AppDevCard);
+customElements.define('app-dev-team', AppDevTeam);
