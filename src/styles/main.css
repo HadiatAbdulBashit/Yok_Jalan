@@ -81,3 +81,50 @@ Item / Card
 .card-title {
     text-decoration: none;
 }
+
+/*
+Fav Button
+*/
+
+.fav {
+    font-size: 30px;
+    background-color: #00C2FF;
+    color: var(--btn);
+    border: 0;
+    border-radius: 50%;
+    width:70px;
+    height: 70px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10;
+  }
+  
+  .fav:hover {
+    background-color: white;
+  }
+
+/*
+Button
+*/
+.btn {
+    margin: 2em;
+    padding: 0.5em 1em;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    background-color: var(--btn);
+    border: 1px solid transparent;
+    font-size: large;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background-color: var(--btn-hover);
+  }
