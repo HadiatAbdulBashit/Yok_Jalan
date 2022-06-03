@@ -15,18 +15,6 @@ const createItemTemplate = (destination) => `
     </div>
   `;
 
-const createFavoritButton = () => `
-  <button aria-label="tambahkan ke favorit" id="favbutton" class="fav">
-    <i class="fas fa-thumbs-up" aria-hidden="true"></i>
-  </button>
-`;
-
-const createUnFavoritButton = () => `
-  <button aria-label="hapus dari favorit" id="favbutton" class="fav">
-    <i class="fas fa-thumbs-down" aria-hidden="true"></i>
-  </button>  
-`;
-
 const createDetailTemplate = (destination) => `
   <div class="row">
     <h2 class="text-center">${destination.nama}</h2>
@@ -46,6 +34,18 @@ const createDetailTemplate = (destination) => `
           <p class="lead">${destination.cp}</p>
     </div>
   </div>
+`;
+
+const createFavoritButton = () => `
+  <button aria-label="tambahkan ke favorit" id="favbutton" class="fav">
+    Tambahan ke Favorite
+  </button>
+`;
+
+const createUnFavoritButton = () => `
+  <button aria-label="hapus dari favorit" id="favbutton" class="fav">
+    Hapus dari Favorite
+  </button>  
 `;
 
 export {

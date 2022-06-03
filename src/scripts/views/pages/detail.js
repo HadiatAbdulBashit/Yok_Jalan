@@ -1,11 +1,13 @@
 import UrlParser from '../../routes/url-parse';
 import { createDetailTemplate } from '../templates/template-creator';
 import data from '../../../../DATA.json';
+import LikeButtonInitiator from '../../utils/like-button-initiator';
 
 const Detail = {
   render() {
     return `
       <div id='detail' class='gx-0 mx-4'></div>
+      <div id="likeButtonContainer"></div>
     `;
   },
 
@@ -18,9 +20,15 @@ const Detail = {
     }
 
     const arrByID = data.destinations.filter(filterByID);
+    const destination = arrByID[0];
 
     const destinationContainer = document.querySelector('#detail');
-    destinationContainer.innerHTML += createDetailTemplate(arrByID[0]);
+    destinationContainer.innerHTML += createDetailTemplate(destination);
+
+    LikeButtonInitiator.init({
+      FavoriteButtonContainer: document.querySelector('#likeButtonContainer'),
+      destination,
+    });
   },
 };
 

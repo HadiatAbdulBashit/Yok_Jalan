@@ -6,13 +6,13 @@ class AppCategory extends HTMLElement {
   _render() {
     this.innerHTML = `
         <div class="d-flex py-2">
-            <ul class="nav nav-pills ps-1">
-                <li class="nav-item p-1"><a href="/#/explore/all" class="nav-link bg-secondary text-white">Semua</a></li>
-                <li class="nav-item p-1"><a href="/#/explore/museum" class="nav-link bg-secondary text-white">Museum</a></li>
-                <li class="nav-item p-1"><a href="/#/explore/pantai" class="nav-link bg-secondary text-white">Pantai</a></li>
-                <li class="nav-item p-1"><a href="/#/explore/gunung" class="nav-link bg-secondary text-white">Gunung</a></li>
-                <li class="nav-item p-1"><a href="/#/explore/sejarah" class="nav-link bg-secondary text-white">Tempat Bersejarah</a></li>
-            </ul>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+            <button type="button" id="caregory-all" class="btn btn-outline-primary btn-lg px-4 me-sm-3">Semua</button>
+            <button type="button" id="caregory-museum" class="btn btn-outline-primary btn-lg px-4 me-sm-3">Museum</button>
+            <button type="button" id="caregory-pantai" class="btn btn-outline-primary btn-lg px-4 me-sm-3">Pantai</button>
+            <button type="button" id="caregory-gunung" class="btn btn-outline-primary btn-lg px-4 me-sm-3">Gunung</button>
+            <button type="button" id="caregory-sejarah" class="btn btn-outline-primary btn-lg px-4 me-sm-3">Tempat Bersejarah</button>
+          </div>
         </div>
     `;
   }

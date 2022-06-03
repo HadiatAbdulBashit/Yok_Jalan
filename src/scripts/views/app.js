@@ -2,7 +2,8 @@
 /* eslint-disable no-use-before-define */
 import routes from '../routes/routes';
 import UrlParser from '../routes/url-parse';
-import DataSource from '../data/data-source';
+import DataSourceSearch from '../data/data-source-search';
+import DataSourceCategory from '../data/data-seurce-category';
 import { createItemTemplate } from './templates/template-creator';
 
 class App {
@@ -29,7 +30,6 @@ class App {
       document.querySelector('#mainContent').focus();
     });
 
-    const searchElement = document.querySelector('app-search');
     const destinationContainer = document.querySelector('#items');
 
     const renderResult = results => {
@@ -39,17 +39,73 @@ class App {
       }
     };
 
+    const searchElement = document.querySelector('app-search');
+
     const onButtonSearchClicked = async () => {
       try {
-        const result = await DataSource.search(searchElement.value);
+        const result = await DataSourceSearch.show(searchElement.value);
         destinationContainer.innerHTML = '';
         renderResult(result);
       } catch (message) {
         console.log(message);
       }
     };
-
     searchElement.clickEvent = onButtonSearchClicked;
+
+    const onCaregoryAllClicked = async () => {
+      try {
+        const result = await DataSourceCategory.show('');
+        destinationContainer.innerHTML = '';
+        renderResult(result);
+      } catch (message) {
+        console.log(message);
+      }
+    };
+    document.querySelector('#caregory-all').addEventListener('click', onCaregoryAllClicked);
+
+    const onCaregoryMuseumClicked = async () => {
+      try {
+        const result = await DataSourceCategory.show('museum');
+        destinationContainer.innerHTML = '';
+        renderResult(result);
+      } catch (message) {
+        console.log(message);
+      }
+    };
+    document.querySelector('#caregory-museum').addEventListener('click', onCaregoryMuseumClicked);
+
+    const onCaregoryPantaiClicked = async () => {
+      try {
+        const result = await DataSourceCategory.show('pantai');
+        destinationContainer.innerHTML = '';
+        renderResult(result);
+      } catch (message) {
+        console.log(message);
+      }
+    };
+    document.querySelector('#caregory-pantai').addEventListener('click', onCaregoryPantaiClicked);
+
+    const onCaregoryGunungClicked = async () => {
+      try {
+        const result = await DataSourceCategory.show('gunung');
+        destinationContainer.innerHTML = '';
+        renderResult(result);
+      } catch (message) {
+        console.log(message);
+      }
+    };
+    document.querySelector('#caregory-gunung').addEventListener('click', onCaregoryGunungClicked);
+
+    const onCaregorySejarahClicked = async () => {
+      try {
+        const result = await DataSourceCategory.show('sejarah');
+        destinationContainer.innerHTML = '';
+        renderResult(result);
+      } catch (message) {
+        console.log(message);
+      }
+    };
+    document.querySelector('#caregory-sejarah').addEventListener('click', onCaregorySejarahClicked);
   }
 }
 
