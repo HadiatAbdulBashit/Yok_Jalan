@@ -2,13 +2,21 @@ const createItemTemplate = (destination) => `
     <div class="col">
       <div class="card shadow m-2 bg-light border-5 border-light">
         <div class="item-header">
-          <img src="${destination.pictureId}" class="card-img-top img-fluid item-image" alt="Gambar ${destination.nama}" loading="lazy">
+          <img src="${
+            destination.pictureId
+          }" class="card-img-top img-fluid item-image" alt="Gambar ${
+  destination.nama
+}" loading="lazy">
           <div class="item-header-rating rounded-start">
-              <p class="mb-0">⭐️<span class="rating-score">${destination.rating}</span></p>
+              <p class="mb-0">⭐️<span class="rating-score">${
+                destination.rating
+              }</span></p>
           </div>
         </div>
         <div class="card-body">
-          <h4><a class="card-title" href="${`/#/detail/${destination.id}`}">${destination.nama}</a></h4>
+          <h4><a class="card-title" href="${`/#/detail/${destination.id}`}">${
+  destination.nama
+}</a></h4>
           <p class="card-text">${destination.deskripsi}</p>
         </div>
       </div>
@@ -38,16 +46,19 @@ const createDetailTemplate = (destination) => `
 
 const createFavoritButton = () => `
   <button aria-label="tambahkan ke favorit" id="favbutton" class="fav">
-    Tambahan ke Favorite
+  <i class="fa-regular fa-heart" aria-hidden="true"></i>
   </button>
 `;
 
 const createUnFavoritButton = () => `
   <button aria-label="hapus dari favorit" id="favbutton" class="fav">
-    Hapus dari Favorite
+  <i class="fa-solid fa-heart" aria-hidden="true"></i>
   </button>  
 `;
 
 export {
-  createItemTemplate, createDetailTemplate, createFavoritButton, createUnFavoritButton,
+  createItemTemplate,
+  createDetailTemplate,
+  createFavoritButton,
+  createUnFavoritButton,
 };
