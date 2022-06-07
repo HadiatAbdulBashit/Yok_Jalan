@@ -7,6 +7,7 @@ import './component/app-search';
 import './component/app-category-bar';
 import './component/app-category';
 import App from './views/app';
+import swRegister from './utils/sw-register';
 
 const app = new App({
   jumbotron: document.querySelector('#jumbotron'),
@@ -21,4 +22,5 @@ window.addEventListener('hashchange', () => {
 
 window.addEventListener('load', () => {
   app.renderPage();
+  swRegister();
 });

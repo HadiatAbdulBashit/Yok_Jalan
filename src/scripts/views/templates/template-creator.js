@@ -3,14 +3,14 @@ const createItemTemplate = (destination) => `
       <div class="card shadow m-2 bg-light border-5 border-light">
         <div class="item-header">
           <img src="${
-            destination.pictureId
-          }" class="card-img-top img-fluid item-image" alt="Gambar ${
+  destination.pictureId
+}" class="card-img-top img-fluid item-image" alt="Gambar ${
   destination.nama
 }" loading="lazy">
           <div class="item-header-rating rounded-start">
               <p class="mb-0">⭐️<span class="rating-score">${
-                destination.rating
-              }</span></p>
+  destination.rating
+}</span></p>
           </div>
         </div>
         <div class="card-body">
