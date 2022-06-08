@@ -5,8 +5,6 @@ const LikeButtonInitiator = {
   async init({ FavoriteButtonContainer, destination }) {
     this._FavoriteButtonContainer = FavoriteButtonContainer;
     this._destinations = destination;
-    console.log(destination);
-    console.log(FavoriteButtonContainer);
 
     await this._renderButton();
   },
