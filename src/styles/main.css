@@ -1,12 +1,105 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-body, html {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* 
+
+Skip link
+
+*/
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background-color: #ffffff;
+  color: #7392e1;
+  padding: 8px;
+  border-radius: 20px;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+#mainContent {
+  max-width: 1200px;
+  padding-top: 8rem;
+}
+
+/* 
+
+Item / Card
+
+*/
+
+.item-header {
+  position: relative;
+  background-color: #ffffff60;
+}
+
+.item-image {
+  height: 250px;
+  min-height: 250px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.item-header-rating {
+  position: absolute;
+  padding: 8px;
+  top: 20px;
+  right: 0;
+  display: inline-block;
+  background-color: #00000070;
+  color: white;
+}
+
+.rating-score {
+  margin-left: 7px;
+  font-weight: bold;
+}
+
+.card-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+
+.card-title {
+  text-decoration: none;
+}
+
+/*
+Fav Button
+*/
+
+.fav {
+  font-size: 18px;
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  background-color: white;
+  color: #00a3ff;
+  border: 1px solid #00a3ff;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
 }
