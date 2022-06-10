@@ -2,21 +2,13 @@ const createItemTemplate = (destination) => `
     <div class="col">
       <div class="card shadow m-2 bg-light border-5 border-light">
         <div class="item-header">
-          <img src="${
-  destination.pictureId
-}" class="card-img-top img-fluid item-image" alt="Gambar ${
-  destination.nama
-}" loading="lazy">
+          <img src="${destination.pictureId}" class="card-img-top img-fluid item-image" alt="Gambar ${destination.nama}" loading="lazy">
           <div class="item-header-rating rounded-start">
-              <p class="mb-0">⭐️<span class="rating-score">${
-  destination.rating
-}</span></p>
+              <p class="mb-0">⭐️<span class="rating-score">${destination.rating}</span></p>
           </div>
         </div>
         <div class="card-body">
-          <h4><a class="card-title" href="${`/#/detail/${destination.id}`}">${
-  destination.nama
-}</a></h4>
+          <h4><a class="card-title" href="${`/#/detail/${destination.id}`}">${destination.nama}</a></h4>
           <p class="card-text">${destination.deskripsi}</p>
         </div>
       </div>
@@ -56,9 +48,16 @@ const createUnFavoritButton = () => `
   </button>  
 `;
 
+const noData = () => `
+  <div class='container text-center'>
+    <img src="./images/vector/nodata.png" alt="logo" class="img-fluid rounded">
+  </div>
+`;
+
 export {
   createItemTemplate,
   createDetailTemplate,
   createFavoritButton,
   createUnFavoritButton,
+  noData,
 };

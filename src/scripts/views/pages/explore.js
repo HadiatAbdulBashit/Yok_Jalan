@@ -2,7 +2,7 @@ import data from '../../../../DATA.json';
 import '../../component/app-search';
 import DataSourceSearch from '../../data/data-source-search';
 import DataSourceCategory from '../../data/data-seurce-category';
-import { createItemTemplate } from '../templates/template-creator';
+import { createItemTemplate, noData } from '../templates/template-creator';
 
 const Explore = {
   render() {
@@ -35,7 +35,9 @@ const Explore = {
         destinationContainer.innerHTML = '';
         renderResult(result);
       } catch (message) {
-        console.log(message);
+        destinationContainer.innerHTML = '';
+        destinationContainer.innerHTML += noData();
+        console.log(`${message}not found`);
       }
     };
     searchElement.clickEvent = onButtonSearchClicked;
