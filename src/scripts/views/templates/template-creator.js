@@ -16,12 +16,39 @@ const createItemTemplate = (destination) => `
   `;
 
 const createDetailTemplate = (destination) => `
-  <div class="row">
-    <h2 class="text-center">${destination.nama}</h2>
-    <div class="col-md-4 mt-3">
-      <img src="${destination.pictureId}" alt="logo" class="img-fluid rounded">
+  <style>
+    .bgimg {
+      position: relative;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: #ddd;
+      min-height: 70vh;
+    }
+    .caption {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      width: 100%;
+      text-align: center;
+      color: #000;
+    }
+    .caption span.border {
+      background-color: #111;
+      color: #fff;
+      font-size: 25px;
+      letter-spacing: 5px;
+      text-transform: uppercase;
+    }
+  </style>
+  <div class="col">
+    <div class="bgimg" style='background-image: url("${destination.pictureId}");opacity: 0.9;'>
+        <div class="caption">
+            <span class="border">${destination.nama}</span>
+        </div>
     </div>
-    <div class="col-md-8 mt-3">
+    <div class="pt-3">
           <p class="lead text-muted">Deskripsi</p>
           <p class="lead">${destination.deskripsi}</p>
           <p class="lead text-muted">Alamat</p>
@@ -32,6 +59,8 @@ const createDetailTemplate = (destination) => `
           <p class="lead">${destination.kategori}</p>
           <p class="lead text-muted">No Telepon</p>
           <p class="lead">${destination.cp}</p>
+    </div>
+    <div class="bgimg" style='background-image: url("${destination.pictureId}");'>
     </div>
   </div>
 `;
