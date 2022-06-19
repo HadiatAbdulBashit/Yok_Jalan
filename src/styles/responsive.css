@@ -1,0 +1,49 @@
+@media screen and (max-width: 550px){
+  .search-container {
+    flex-direction: column;
+    position: static;
+  }
+
+  .search-container > input {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+
+  .search-container > button {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .devTeam .devCard {
+    flex-direction: column;
+    max-width: 300px;
+    margin: 25px;
+  }
+
+  .devTeam .devCard .imgBx {
+    width: 80%;
+    height: 250px;
+    left: 0;
+  }
+
+  .devTeam .devCard .profileBx {
+    width: 100%;
+    height: auto;
+    right: 0;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  .devTeam .devCard .profileBx:before {
+    border-radius: 10px;
+    bottom: 0;
+  }
+
+  .profileBx p,
+	p.subtitle,
+  .profileBx .media {
+    font-size: 13px;
+  }
+}

@@ -5,19 +5,8 @@ class AppAboutUs extends HTMLElement {
 
   _render() {
     this.innerHTML = `
-               <style>
-                h1.title {
-                  font-size: 2rem;
-                  color: #00A3FF;
-                }
-                p.subtitle {
-                  font-size: 1.2rem;
-                  color: #042B41;
-                }
-                </style>
-                
-                <section id='aboutus'>
-                <div class='container'>
+              <section id='aboutus'>
+               <div class='container'>
                 <div class='row justify-content-evenly mb-5 pb-5'>
                   <div class='col-sm-7 pe-3 d-flex flex-column justify-content-center text-center'>
                     <h1 class='title'>Tentang Yok Jalan</h1>
@@ -27,8 +16,8 @@ class AppAboutUs extends HTMLElement {
                     <img class='img-fluid aboutus-img' src='../../images/vector/yokjalan.png' alt='Gambar Yok Jalan' />
                   </div>
                 </div>
-                </div>
-                </section>             
+               </div>
+              </section>             
               `;
   }
 }

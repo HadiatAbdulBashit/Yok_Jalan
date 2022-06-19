@@ -1,6 +1,7 @@
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/main.css';
+import '../styles/responsive.css';
 import './component/app-bar';
 import './component/app-footer';
 import './component/app-search';

@@ -5,22 +5,6 @@ class AppJumbotron extends HTMLElement {
 
   _render() {
     this.innerHTML = `
-          <style>
-            .jumbotron {
-              background: linear-gradient(180deg, #7392E1 17.59%, rgba(115, 146, 225, 0.28) 100%);
-            }
-  
-            .jumbotron__title {
-              color: #fff;
-              font-size: 36px;
-            }
-            
-            .jumbotron__tagline {
-                color: #fff;
-                font-size: 20px;
-            }
-          </style>
-  
           <div class="jumbotron pt-5 mt-5">
             <div class="row d-flex justify-content-evenly pt-5 align-items-center g-0 mt-3 text-center">
                 <div class="col-lg-4">

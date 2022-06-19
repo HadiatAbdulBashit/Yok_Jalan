@@ -5,33 +5,6 @@ class AppBar extends HTMLElement {
 
   _render() {
     this.innerHTML = `
-        <style>
-          .bg__navbar {
-            position: fixed;
-            top: 0;
-            width: 100%;
-            z-index: 99;
-            background-color: #00C2FF;
-            border-radius: 0px 0px 20px 20px;
-          }
-
-          .nav__title,
-          .nav__item {
-            display: inline-block;
-            text-decoration: none;
-            color: #FFFFFF;
-            min-width : 44px;
-            min-height: 44px;
-            border-radius: 40px;
-          }
-
-          .nav__item:hover {
-            text-decoration: underline;
-            color: #00C2FF;
-            background-color: #FFFFFF;
-          }
-        </style>
-        
         <nav class="navbar navbar-expand-lg bg__navbar p-3">
           <div class="container-fluid">
             <a class="navbar-brand fs-3 nav__title" href="#">

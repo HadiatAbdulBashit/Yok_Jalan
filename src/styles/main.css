@@ -17,10 +17,13 @@ html {
   scroll-behavior: smooth;
 }
 
+#mainContent {
+  max-width: 1200px;
+  margin-top: 8rem;
+}
+
 /* 
-
 Skip link
-
 */
 
 .skip-link {
@@ -37,16 +40,128 @@ Skip link
 .skip-link:focus {
   top: 0;
 }
+/* 
+App-bar
+*/
 
-#mainContent {
-  max-width: 1200px;
-  margin-top: 8rem;
+.bg__navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+  background-color: #00C2FF;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.nav__title,
+.nav__item {
+  display: inline-block;
+  text-decoration: none;
+  color: #FFFFFF;
+  min-width : 44px;
+  min-height: 44px;
+  border-radius: 40px;
+}
+
+.nav__item:hover {
+  text-decoration: underline;
+  color: #00C2FF;
+  background-color: #FFFFFF;
+}
+
+
+/* 
+Jumbotron
+*/
+
+.jumbotron {
+  background: linear-gradient(180deg, #7392E1 17.59%, rgba(115, 146, 225, 0.28) 100%);
+}
+
+.jumbotron__title {
+  color: #fff;
+  font-size: 36px;
+}
+
+.jumbotron__tagline {
+  color: #fff;
+  font-size: 20px;
+}
+
+
+/* 
+App-Welcome
+*/
+
+h2.title {
+  /* font-size: 2rem; */
+  color: #00A3FF;
+}
+
+
+p.subtitle {
+  font-size: 1.2rem;
+  color: #042B41;
 }
 
 /* 
+App-Search
+*/
 
+.search-container {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  border-radius: 5px;
+  display: flex;
+  top: 10px;
+  background-color: white;
+  margin-bottom: 1rem;
+}
+
+.search-container > input {
+  width: 75%;
+  padding: 16px;
+  border: 0;
+  border-bottom: 2px solid #999;
+  font-weight: bold;
+}
+
+.search-container > input:focus {
+  outline: 0;
+  border-bottom: 2px solid #00C2FF;
+}
+
+.search-container > input:focus::placeholder {
+  font-weight: bold;
+}
+
+.search-container >  input::placeholder {
+  color: black;
+  font-weight: normal;
+}
+
+.search-container > button {
+  width: 23%;
+  cursor: pointer;
+  margin-left: auto;
+  padding: 16px;
+  background-color: rgb(112, 128, 144);
+  color: white;
+  border: 0;
+  border-radius: .5rem;
+  text-transform: uppercase;
+}
+
+.search-container > button:hover {
+  background-color: #00C2FF;
+}
+
+.search-container > button:active {
+  background-color: rgb(112, 128, 144);
+}
+
+/* 
 Item / Card
-
 */
 
 .item-header {
@@ -88,6 +203,35 @@ Item / Card
   text-decoration: none;
 }
 
+/* 
+Detail Template
+*/
+
+.bgimg {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #ddd;
+  min-height: 70vh;
+}
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  font-size: 25px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
 /*
 Fav Button
 */
@@ -109,6 +253,134 @@ Fav Button
   height: 44px;
 }
 
+/*
+App-AboutUs
+*/
+
+h1.title {
+  /* font-size: 2rem; */
+  color: #00A3FF;
+}
+
+p.subtitle {
+  font-size: 1.2rem;
+  color: #042B41;
+}
+
+/*
+App-Dev-Team
+*/
+
+.devTeam {
+  max-width: 1000px;
+  flex-wrap: wrap;
+}
+
+.devTeam .devTitle {
+  min-width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.devTeam .devCard {
+  flex-wrap: wrap;
+  margin: 100px 0;
+}
+
+.devTeam .devCard:nth-child(odd) {
+  flex-direction: row;
+}
+
+.devTeam .devCard:nth-child(even) {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+.devCard .imgBx {
+  left: 25px;
+  width: 480px;
+  height: 400px;
+  z-index: 1;
+}
+
+.devCard:nth-child(even) .imgBx {
+  left: -25px;
+}
+
+.imgBx img {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.devCard .profileBx {
+  right: 25px;
+  width: 480px;
+  height: 400px;
+  background: #7392E1;
+  padding: 20px 40px 20px 100px;
+}
+
+.devCard:nth-child(even) .profileBx {
+  right: -25px;
+  padding: 20px 100px 20px 40px;
+}
+
+.devCard .profileBx:before {
+  content: '';
+  position: absolute;
+  top: -50px;
+  bottom: -50px;
+  left: 0;
+  right: 0;
+  background: #7392E1;
+  z-index: -1;
+  border-radius: 10px;
+}
+
+.profileBx h3 {
+  color: #FFF;
+}
+
+.profileBx p {
+  margin-top: 10px;
+  color: #FFF;
+}
+
+.profileBx .media {
+  margin-top: 5px;
+  padding: 0;
+}
+
+.media li {
+  list-style: none;
+  margin: 4px;
+}
+
+.media li a {
+  width: 50px;
+  height: 50px;
+  font-size: 1.5em;
+  color: #FFF;
+  text-decoration: none;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  transition: .5s;
+}
+
+.media li a:hover {
+  background-color: #FFF;
+  color: #7392E1;
+}
+
+/*
+App-Footer
+*/
+
 app-footer {
   margin-top: auto;
+}
+
+.bg-footer {
+  background-color: #00C2FF;
 }

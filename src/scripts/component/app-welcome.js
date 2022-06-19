@@ -5,17 +5,6 @@ class AppWelcome extends HTMLElement {
 
   _render() {
     this.innerHTML = `
-             <style>
-              h2.title {
-                font-size: 2rem;
-                color: #00A3FF;
-              }
-              p.subtitle {
-                font-size: 1.2rem;
-                color: #042B41;
-              }
-              </style>
-  
             <section id="welcome">
                 <div class="row justify-content-evenly mb-5 pb-5">
                   <div class="col-lg-6 pe-3 d-flex flex-column justify-content-center text-center">

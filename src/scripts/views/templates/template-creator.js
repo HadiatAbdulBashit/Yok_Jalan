@@ -16,32 +16,6 @@ const createItemTemplate = (destination) => `
   `;
 
 const createDetailTemplate = (destination) => `
-  <style>
-    .bgimg {
-      position: relative;
-      background-attachment: fixed;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-color: #ddd;
-      min-height: 70vh;
-    }
-    .caption {
-      position: absolute;
-      left: 0;
-      top: 50%;
-      width: 100%;
-      text-align: center;
-      color: #000;
-    }
-    .caption span.border {
-      background-color: #111;
-      color: #fff;
-      font-size: 25px;
-      letter-spacing: 5px;
-      text-transform: uppercase;
-    }
-  </style>
   <div class="col">
     <div class="bgimg" style='background-image: url("${destination.pictureId}");opacity: 0.9;'>
         <div class="caption">
