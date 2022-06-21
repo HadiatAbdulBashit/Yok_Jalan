@@ -11,7 +11,7 @@ const Favorite = {
   async afterRender() {
     const destinations = await FavoriteDestinationIdb.getAllDestination();
     const destinationContainer = document.querySelector('#items');
-    console.log(destinations);
+
     if (destinations[0]) {
       destinations.forEach((item) => {
         console.log(item);

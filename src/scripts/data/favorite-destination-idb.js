@@ -14,12 +14,20 @@ const dbPromise = openDB(DATABASE_NAME, DATABASE_VERSION, {
 
 const FavoriteDestinationIdb = {
   async getDestination(id) {
+    if (!id) {
+      return;
+    }
+
     return (await dbPromise).get(OBJECT_STORE_NAME, id);
   },
   async getAllDestination() {
     return (await dbPromise).getAll(OBJECT_STORE_NAME);
   },
   async putDestination(destination) {
+    if (!destination.hasOwnProperty('id')) {
+      return;
+    }
+
     return (await dbPromise).put(OBJECT_STORE_NAME, destination);
   },
   async deleteDestination(id) {
