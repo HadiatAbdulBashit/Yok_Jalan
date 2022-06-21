@@ -53,7 +53,7 @@ const createUnFavoritButton = () => `
 
 const noData = () => `
   <div class='container text-center'>
-    <img src="./images/vector/nodata.png" alt="logo" class="img-fluid rounded">
+    <img src="./images/vector/nodata.png" alt="no-data" id="no-data" class="img-fluid rounded">
   </div>
 `;
 

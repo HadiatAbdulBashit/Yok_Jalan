@@ -23,6 +23,7 @@
         "consistent-return": 0,
         "no-plusplus": 0,
         "no-inner-declarations": 0,
+        "no-undef": "off",
         "no-shadow": 0
     }
 }
