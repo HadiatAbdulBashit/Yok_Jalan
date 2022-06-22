@@ -12,7 +12,10 @@ class AppWelcome extends HTMLElement {
                     <p class='subtitle'>Indonesia memiliki banyak sekali destinasi wisata yang wajib dikunjungi. Kami akan mempromosikan destinasi wisata Indonesia yang indah dan menarik melalui website ini.</p>
                   </div>
                   <div class="col-lg-5">
-                    <img class='img-fluid welcome-img' src="../../images/vector/Welcomeimage.jpg" alt="Gambar welcome" />
+                    <picture>
+                      <source media="(max-width: 600px)" srcset="./images/vector/Welcomeimage-small.png">
+                      <img class='img-fluid welcome-img' src="../../images/vector/Welcomeimage.jpg" alt="Gambar welcome" />
+                    </picture>
                   </div>
                 </div>
             </section>

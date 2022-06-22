@@ -13,7 +13,10 @@ class AppAboutUs extends HTMLElement {
                     <p class='subtitle'>Yok Jalan merupakan sebuah platform berbasis website yang menyediakan berbagai informasi mengenai destinasi wisata di Indonesia. Tujuan dari dibuatnya website ini adalah untuk membantu mempromosikan destinasi wisata yang ada di Indonesia. Website ini merupakan tugas akhir capstone project grup CPSG-20.</p>
                   </div>
                   <div class='col-lg-3 d-flex justify-content-center'>
-                    <img class='img-fluid aboutus-img' src='../../images/vector/yokjalan.png' alt='Gambar Yok Jalan' />
+                    <picture>
+                      <source media="(max-width: 600px)" srcset="./images/vector/yokjalan-small.png">
+                      <img class='img-fluid aboutus-img' src='../../images/vector/yokjalan.png' alt='Gambar Yok Jalan' />
+                    </picture>
                   </div>
                 </div>
                </div>

@@ -2,7 +2,7 @@ const createItemTemplate = (destination) => `
     <div class="col">
       <div class="card shadow m-2 bg-light border-5 border-light">
         <div class="item-header">
-          <img src="${destination.pictureId}" class="card-img-top img-fluid item-image" alt="Gambar ${destination.nama}" loading="lazy">
+          <img data-src="${destination.pictureId}" class="card-img-top img-fluid item-image lazyload" alt="Gambar ${destination.nama}" loading="lazy">
           <div class="item-header-rating rounded-start">
               <p class="mb-0">⭐️<span class="rating-score">${destination.rating}</span></p>
           </div>
@@ -53,7 +53,10 @@ const createUnFavoritButton = () => `
 
 const noData = () => `
   <div class='container text-center'>
-    <img src="./images/vector/nodata.png" alt="no-data" id="no-data" class="img-fluid rounded">
+    <picture>
+      <source media="(max-width: 600px)" srcset="./images/vector/nodata-small.png" class="img-fluid rounded">
+      <img src="./images/vector/nodata.png" alt="no-data" id="no-data" class="img-fluid rounded">
+    </picture>
   </div>
 `;
 
