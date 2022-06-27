@@ -17,37 +17,65 @@ const createItemTemplate = (destination) => `
 
 const createDetailTemplate = (destination) => `
   <div class="col">
-    <div class="bgimg" style='background-image: url("${destination.pictureId}");opacity: 0.9;'>
+    <div class="bgimg" style='background-image: url("${destination.pictureId}");'>
         <div class="caption">
             <span class="border">${destination.nama}</span>
         </div>
     </div>
-    <div class="pt-3">
-          <p class="lead text-muted">Deskripsi</p>
-          <p class="lead">${destination.deskripsi}</p>
-          <p class="lead text-muted">Alamat</p>
-          <p class="lead">${destination.alamat}</p>
-          <p class="lead text-muted">Rating</p>
-          <p class="lead">${destination.rating}</p>
-          <p class="lead text-muted">Kategori</p>
-          <p class="lead">${destination.kategori}</p>
-          <p class="lead text-muted">No Telepon</p>
-          <p class="lead">${destination.cp}</p>
-    </div>
-    <div class="bgimg" style='background-image: url("${destination.pictureId}");'>
+    <div class="mt-3">
+      <div class="row row-cols-1 row-cols-md-2">
+        <div class="col-md-8">
+          <p class="text-muted">Deskripsi</p>
+          <p>${destination.deskripsi}</p>
+        </div>
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-1">
+              <i class="fa-solid fa-location-dot theme-color"></i>
+            </div>
+            <div class="col">
+              <p>${destination.alamat}</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-1">
+              <i class="fa-solid fa-star theme-color"></i>
+            </div>
+            <div class="col">
+              <p>${destination.rating}</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-1">
+              <i class="fa-solid fa-phone theme-color"></i>
+            </div>
+            <div class="col">
+              <p>${destination.cp}</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-1">
+              <i class="fa-solid fa-table-list theme-color"></i>
+            </div>
+            <div class="col">
+              <p>${destination.kategori}</p>
+            </div>
+          </div>          
+        </div>
+      </div>
     </div>
   </div>
 `;
 
 const createFavoritButton = () => `
   <button aria-label="tambahkan ke favorit" id="favbutton" class="fav">
-  <i class="fa-regular fa-heart" aria-hidden="true"></i>
+    <i class="fa-regular fa-heart" aria-hidden="true"></i>
   </button>
 `;
 
 const createUnFavoritButton = () => `
   <button aria-label="hapus dari favorit" id="favbutton" class="fav">
-  <i class="fa-solid fa-heart" aria-hidden="true"></i>
+    <i class="fa-solid fa-heart" aria-hidden="true"></i>
   </button>  
 `;
 

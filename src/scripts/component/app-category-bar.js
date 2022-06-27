@@ -5,7 +5,8 @@ class AppCategory extends HTMLElement {
 
   _render() {
     this.innerHTML = `
-        <div class="nav nav-pills">
+        <div class="nav nav-pills align-items-center">
+            Kategori:
             <button type="button" id="caregory-all" class="btn btn-outline-primary px-4 m-2">Semua</button>
             <button type="button" id="caregory-museum" class="btn btn-outline-primary px-4 m-2">Museum</button>
             <button type="button" id="caregory-pantai" class="btn btn-outline-primary px-4 m-2">Pantai</button>

@@ -43,7 +43,8 @@
 
   .profileBx p,
 	p.subtitle,
-  .profileBx .media {
+  .profileBx .media,
+  #atribution {
     font-size: 13px;
   }
 }

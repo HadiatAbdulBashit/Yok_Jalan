@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -15,11 +17,13 @@ html {
   flex-direction: column;
 
   scroll-behavior: smooth;
+  font-family: 'Glory', sans-serif;
 }
 
 #mainContent {
   max-width: 1200px;
   margin-top: 8rem;
+  width: 100%;
 }
 
 /* 
@@ -214,7 +218,7 @@ Detail Template
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #ddd;
-  min-height: 70vh;
+  min-height: 80vh; 
 }
 .caption {
   position: absolute;
@@ -230,6 +234,10 @@ Detail Template
   font-size: 25px;
   letter-spacing: 5px;
   text-transform: uppercase;
+}
+
+.theme-color{
+  color: #00C2FF;
 }
 
 /*
@@ -256,6 +264,10 @@ Fav Button
 /*
 App-AboutUs
 */
+
+.aboutus-img{
+  max-width: 200px;
+}
 
 h1.title {
   /* font-size: 2rem; */

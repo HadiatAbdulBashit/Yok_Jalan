@@ -9,12 +9,14 @@ const Explore = {
     return `
       <app-search></app-search>
       <app-category-bar></app-category-bar>
-      <div id='items' class='row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xxl-4 g-0'></div>
+      <div id='items' class='row row-cols-1 row-cols-md-2 row-cols-lg-3 g-0 justify-content-evenly'></div>
+      <div id='nodata'></div>
     `;
   },
 
   afterRender() {
     const destinationContainer = document.querySelector('#items');
+    const noDataContainer = document.querySelector('#nodata');
 
     data.destinations.forEach((item) => {
       destinationContainer.innerHTML += createItemTemplate(item);
@@ -31,13 +33,18 @@ const Explore = {
 
     const onButtonSearchClicked = async () => {
       try {
-        const result = await DataSourceSearch.show(searchElement.value);
-        destinationContainer.innerHTML = '';
-        renderResult(result);
+        if (!searchElement.value) {
+          noDataContainer.innerHTML = `<div class='text-center fs-1 mt-3'>Tidak ada kata kunci!</div>${noData()}`;
+          destinationContainer.innerHTML = '';
+        } else {
+          const result = await DataSourceSearch.show(searchElement.value);
+          destinationContainer.innerHTML = '';
+          noDataContainer.innerHTML = '';
+          renderResult(result);
+        }
       } catch (message) {
         destinationContainer.innerHTML = '';
-        destinationContainer.innerHTML += noData();
-        console.log(`${message}not found`);
+        noDataContainer.innerHTML = `<div class='text-center fs-1 mt-3'>Kata kunci ${searchElement.value} Tidak di temukan!</div>${noData()}`;
       }
     };
     searchElement.clickEvent = onButtonSearchClicked;
@@ -45,6 +52,7 @@ const Explore = {
     const onCaregoryAllClicked = async () => {
       try {
         const result = await DataSourceCategory.show('');
+        noDataContainer.innerHTML = '';
         destinationContainer.innerHTML = '';
         renderResult(result);
       } catch (message) {
@@ -56,6 +64,7 @@ const Explore = {
     const onCaregoryMuseumClicked = async () => {
       try {
         const result = await DataSourceCategory.show('museum');
+        noDataContainer.innerHTML = '';
         destinationContainer.innerHTML = '';
         renderResult(result);
       } catch (message) {
@@ -67,6 +76,7 @@ const Explore = {
     const onCaregoryPantaiClicked = async () => {
       try {
         const result = await DataSourceCategory.show('pantai');
+        noDataContainer.innerHTML = '';
         destinationContainer.innerHTML = '';
         renderResult(result);
       } catch (message) {
@@ -78,6 +88,7 @@ const Explore = {
     const onCaregoryGunungClicked = async () => {
       try {
         const result = await DataSourceCategory.show('gunung');
+        noDataContainer.innerHTML = '';
         destinationContainer.innerHTML = '';
         renderResult(result);
       } catch (message) {
@@ -89,6 +100,7 @@ const Explore = {
     const onCaregorySejarahClicked = async () => {
       try {
         const result = await DataSourceCategory.show('sejarah');
+        noDataContainer.innerHTML = '';
         destinationContainer.innerHTML = '';
         renderResult(result);
       } catch (message) {
