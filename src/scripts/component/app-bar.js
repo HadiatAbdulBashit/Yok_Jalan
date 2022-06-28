@@ -16,10 +16,10 @@ class AppBar extends HTMLElement {
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav">
-                <a class="nav-link active nav__item" aria-current="page" href="#/home">Beranda</a>
-                <a class="nav-link active nav__item" href="#/explore">Jelajah</a>
-                <a class="nav-link active nav__item" href="#/favorite">Favorit</a>
-                <a class="nav-link active nav__item" href="#/about">Tentang Kami</a>
+                <a class="nav-link active nav__item px-2" aria-current="page" href="#/home">Beranda</a>
+                <a class="nav-link active nav__item px-2" href="#/explore">Jelajah</a>
+                <a class="nav-link active nav__item px-2" href="#/favorite">Favorit</a>
+                <a class="nav-link active nav__item px-2" href="#/about">Tentang Kami</a>
               </div>
             </div>
           </div>

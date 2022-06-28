@@ -12,6 +12,13 @@
   .search-container > button {
     width: 100%;
   }
+
+  .jumbotron__tagline,
+  .jumbotron__cta,
+	p.subtitle {
+    font-size: 14px;
+  }
+
 }
 
 @media screen and (max-width: 1000px) {
@@ -42,7 +49,6 @@
   }
 
   .profileBx p,
-	p.subtitle,
   .profileBx .media {
     font-size: 13px;
   }

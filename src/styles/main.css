@@ -33,13 +33,14 @@ Skip link
   background-color: #ffffff;
   color: #7392e1;
   padding: 8px;
-  border-radius: 20px;
+  border-radius: 10px;
   z-index: 100;
 }
 
 .skip-link:focus {
   top: 0;
 }
+
 /* 
 App-bar
 */
@@ -50,7 +51,7 @@ App-bar
   width: 100%;
   z-index: 99;
   background-color: #00C2FF;
-  border-radius: 0px 0px 20px 20px;
+  border-radius: 0px 0px 10px 10px;
 }
 
 .nav__title,
@@ -60,15 +61,14 @@ App-bar
   color: #FFFFFF;
   min-width : 44px;
   min-height: 44px;
-  border-radius: 40px;
+  border-radius: 10px;
+  transition: .3s;
 }
 
 .nav__item:hover {
-  text-decoration: underline;
   color: #00C2FF;
   background-color: #FFFFFF;
 }
-
 
 /* 
 Jumbotron
@@ -80,7 +80,6 @@ Jumbotron
 
 .jumbotron__title {
   color: #fff;
-  font-size: 36px;
 }
 
 .jumbotron__tagline {
@@ -88,13 +87,27 @@ Jumbotron
   font-size: 20px;
 }
 
+.jumbotron__cta {
+  text-decoration: none;
+  font-size: 18px;
+  min-width : 44px;
+  min-height: 44px;
+  border-radius: 10px;
+  color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  transition: .3s;
+}
+
+.jumbotron__cta:hover {
+  color: #00A3FF;
+  background-color: #FFFFFF;
+}
 
 /* 
 App-Welcome
 */
 
 h2.title {
-  /* font-size: 2rem; */
   color: #00A3FF;
 }
 
@@ -364,7 +377,7 @@ App-Dev-Team
   color: #FFF;
   text-decoration: none;
   border: 2px solid rgba(255, 255, 255, 0.5);
-  transition: .5s;
+  transition: .3s;
 }
 
 .media li a:hover {
