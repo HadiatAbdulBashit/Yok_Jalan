@@ -19,7 +19,7 @@ const Favorite = {
         destinationContainer.innerHTML += createItemTemplate(item);
       });
     } else {
-      noDataContainer.innerHTML = `<div class='text-center fs-1 mt-3'>Anda belum menambahkan destinasi yang di favoritkan !</div>${noData()}`;
+      noDataContainer.innerHTML = `<div class='text-center fs-1 mt-3' data-aos="zoom-in-down" data-aos-offset="-830">Anda belum menambahkan destinasi yang di favoritkan !</div>${noData()}`;
     }
   },
 };

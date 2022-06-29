@@ -7,13 +7,13 @@ class AppJumbotron extends HTMLElement {
     this.innerHTML = `
           <div class="jumbotron pt-5 mt-5">
             <div class="row d-flex justify-content-evenly pt-5 align-items-center g-0 mt-3 text-center">
-                <div class="col-lg-4 px-1">
+                <div class="col-lg-4 px-1" data-aos="fade-up" data-aos-offset="300">
                     <picture>
                       <source media="(max-width: 600px)" srcset="./images/vector/tourists-small.png" class="img-fluid">
                       <img src="../../images/vector/tourists.png" alt="gambar" class="img-fluid">
                     </picture>
                 </div>
-                <div class="col-lg-5 px-1">
+                <div class="col-lg-5 px-1" data-aos="fade-down" data-aos-offset="300">
                     <h1 class="jumbotron__title">Nikmati Keindahan Wisata Nusantara</h1>
                     <p class="jumbotron__tagline mb-4">Jelajahi setiap tempat wisata lokal yang ada. Semua orang harus mengetahui indahnya Indonesia!</p>
                     <a class="jumbotron__cta p-2 px-3" href="#/explore">Yok Cari <i class="fa-solid fa-magnifying-glass"></i></a>

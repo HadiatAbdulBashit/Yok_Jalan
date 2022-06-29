@@ -2,6 +2,8 @@ import 'lazysizes';
 import 'lazysizes/plugins/parent-fit/ls.parent-fit';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import '../styles/main.css';
 import '../styles/responsive.css';
 import './component/app-bar';
@@ -26,4 +28,8 @@ window.addEventListener('hashchange', () => {
 window.addEventListener('load', () => {
   app.renderPage();
   swRegister();
+});
+
+AOS.init({
+  duration: 800,
 });
