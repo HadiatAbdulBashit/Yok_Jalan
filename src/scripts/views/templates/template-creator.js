@@ -24,12 +24,12 @@ const createDetailTemplate = (destination) => `
     </div>
     <div class="mt-3">
       <div class="row row-cols-1 row-cols-md-2">
-        <div class="col-md-8" data-aos="zoom-in-right" data-aos-offset="-800">
+        <div class="col-md-8" data-aos="zoom-out-up" data-aos-offset="-850">
           <h2 class="text-muted">Deskripsi</h2>
           <p>${destination.deskripsi}</p>
         </div>
         <div class="col-md-4">
-          <div class="row" data-aos="zoom-in-left" data-aos-offset="-800">
+          <div class="row" data-aos="zoom-out-down" data-aos-offset="-850">
             <div class="col-1">
               <i class="fa-solid fa-location-dot theme-color"></i>
             </div>
@@ -37,7 +37,7 @@ const createDetailTemplate = (destination) => `
               <p>${destination.alamat}</p>
             </div>
           </div>
-          <div class="row" data-aos="zoom-in-left" data-aos-offset="-850">
+          <div class="row" data-aos="zoom-out-down" data-aos-offset="-850">
             <div class="col-1">
               <i class="fa-solid fa-star theme-color"></i>
             </div>
@@ -45,7 +45,7 @@ const createDetailTemplate = (destination) => `
               <p>${destination.rating}</p>
             </div>
           </div>
-          <div class="row" data-aos="zoom-in-left" data-aos-offset="-850">
+          <div class="row" data-aos="zoom-out-down" data-aos-offset="-850">
             <div class="col-1">
               <i class="fa-solid fa-phone theme-color"></i>
             </div>
@@ -53,7 +53,7 @@ const createDetailTemplate = (destination) => `
               <p>${destination.cp}</p>
             </div>
           </div>
-          <div class="row" data-aos="zoom-in-left" data-aos-offset="-850">
+          <div class="row" data-aos="zoom-out-down" data-aos-offset="-850">
             <div class="col-1">
               <i class="fa-solid fa-table-list theme-color"></i>
             </div>
@@ -80,7 +80,7 @@ const createUnFavoritButton = () => `
 `;
 
 const noData = () => `
-  <div class='container text-center' data-aos="zoom-in-up" data-aos-offset="-830">
+  <div class='container text-center' data-aos="zoom-in-up" data-aos-offset="-850">
     <picture>
       <source media="(max-width: 600px)" srcset="./images/vector/nodata-small.png" class="img-fluid rounded">
       <img src="./images/vector/nodata.png" alt="no-data" id="no-data" class="img-fluid rounded">

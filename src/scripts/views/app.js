@@ -4,7 +4,11 @@ import routes from '../routes/routes';
 import UrlParser from '../routes/url-parse';
 
 class App {
-  constructor({ jumbotron, content }) {
+  constructor({
+    navbarToggle, navbarMarkup, jumbotron, content,
+  }) {
+    this._navbarToggle = navbarToggle;
+    this._navbarMarkup = navbarMarkup;
     this._jumbotron = jumbotron;
     this._content = content;
   }

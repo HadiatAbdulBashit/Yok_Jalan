@@ -9,7 +9,7 @@ class AppDevTeam extends HTMLElement {
               <div class="devTitle d-flex justify-content-center align-items-center position-relative pt-5 pb-3 mb-3 mt-5 text-center">
                 <h2>Tim Kami</h2>
               </div>  
-              <div class="devCard d-flex justify-content-center align-items-center position-relative" data-aos="fade-right" data-aos-offset="-800">
+              <div class="devCard d-flex justify-content-center align-items-center position-relative" data-aos="flip-right" data-aos-offset="-3000">
                 <div class="imgBx position-relative">
                   <img src="./images/team/Putri.png" alt="Putri Nur Aini Mahfudz" class="position-absolute">
                 </div>
@@ -25,7 +25,7 @@ class AppDevTeam extends HTMLElement {
                   </div>
                 </div>
               </div>
-              <div class="devCard d-flex justify-content-center align-items-center position-relative" data-aos="fade-left" data-aos-offset="-800">
+              <div class="devCard d-flex justify-content-center align-items-center position-relative" data-aos="flip-left" data-aos-offset="-3000">
                 <div class="imgBx position-relative">
                   <img src="./images/team/Febby.png" alt="Febby Putri Marshanda" class="position-absolute">
                 </div>
@@ -41,7 +41,7 @@ class AppDevTeam extends HTMLElement {
                   </div>
                 </div>
               </div>
-              <div class="devCard d-flex justify-content-center align-items-center position-relative" data-aos="fade-right" data-aos-offset="-800">
+              <div class="devCard d-flex justify-content-center align-items-center position-relative" data-aos="flip-right" data-aos-offset="-3000">
                 <div class="imgBx position-relative">
                   <img src="./images/team/Hadiat.png" alt="Hadiat Abdul Bashit" class="position-absolute">
                 </div>
@@ -57,7 +57,7 @@ class AppDevTeam extends HTMLElement {
                   </div>
                 </div>
               </div>
-              <div class="devCard d-flex justify-content-center align-items-center position-relative" data-aos="fade-left" data-aos-offset="-800">
+              <div class="devCard d-flex justify-content-center align-items-center position-relative" data-aos="flip-left" data-aos-offset="-3000">
                 <div class="imgBx position-relative">
                   <img src="./images/team/Mushlih.png" alt="Mushlih Nur Islam" class="position-absolute">
                 </div>

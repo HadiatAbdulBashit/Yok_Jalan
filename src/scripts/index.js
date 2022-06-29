@@ -15,6 +15,8 @@ import App from './views/app';
 import swRegister from './utils/sw-register';
 
 const app = new App({
+  navbarToggle: document.querySelector('.navbar-toggler-icon'),
+  navbarMarkup: document.querySelector('#navbarNavAltMarkup'),
   jumbotron: document.querySelector('#jumbotron'),
   content: document.querySelector('#mainContent'),
   searchElement: document.querySelector('app-search'),
@@ -23,6 +25,9 @@ const app = new App({
 
 window.addEventListener('hashchange', () => {
   app.renderPage();
+  if (app._navbarMarkup.classList.contains('show')) {
+    app._navbarToggle.click();
+  }
 });
 
 window.addEventListener('load', () => {
