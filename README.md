@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://yokjalan.netlify.app/">
-    <img src="./src/public/Logo.png" alt="Logo" width=120 height=120>
+    <img src="https://github.com/HadiatAbdulBashit/Yok_Jalan/blob/main/src/public/Logo.png?raw=true" alt="Logo" width=120 height=120>
   </a>
 
   <h3 align="center">Yok Jalan</h3>
@@ -46,24 +46,24 @@ Pada website ini terdapat beberapa fitur seperti:
 
 | Halaman Beranda     |
 |------------|
-|<img src="https://ibb.co/rFsd8xD" width="200">|
+|<img src="https://i.ibb.co/176zyrF/image.png" alt="image" border="0" />|
 
 | Halaman Jelajah     |
 |------------|
-|<img src="https://ibb.co/q0LtDd8" width="200">|
+|<img src="https://i.ibb.co/SQDh6Pg/image.png" alt="image" border="0" />|
 
 | Halaman Favorit     |
 |------------|
-|<img src="https://ibb.co/ck7MDrR" width="200">|
-|<img src="https://ibb.co/TTZ06Cn" width="200">|
+|<img src="https://i.ibb.co/TYFpmgJ/image.png" alt="image" border="0" />|
+|<img src="https://i.ibb.co/FW9Y2Pf/image.png" alt="image" border="0" />|
 
 | Halaman Detail     |
 |------------|
-|<img src="https://ibb.co/hVnjBsy" width="200">|
+|<img src="https://i.ibb.co/PgbncxN/image.png" alt="image" border="0" />|
 
 | Halaman Tentang Kami     |
 |------------|
-|<img src="https://ibb.co/rQq7xRx" width="200">|
+|<img src="https://i.ibb.co/sgcmKdK/image.png" alt="image" border="0" />|
 
 <br/><br/>
 
