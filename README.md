@@ -44,27 +44,6 @@ Pada website ini terdapat beberapa fitur seperti:
 5. Menampilkan detail tempat wisata seperti nama, deskripsi, alamat, rating, nomor telepon, dan kategori.
 6. Menambahkan dan menghilangkan tempat wisata yang kita suka.
 
-| Halaman Beranda     |
-|------------|
-|<img src="https://i.ibb.co/176zyrF/image.png" alt="image" border="0" />|
-
-| Halaman Jelajah     |
-|------------|
-|<img src="https://i.ibb.co/SQDh6Pg/image.png" alt="image" border="0" />|
-
-| Halaman Favorit     |
-|------------|
-|<img src="https://i.ibb.co/TYFpmgJ/image.png" alt="image" border="0" />|
-|<img src="https://i.ibb.co/FW9Y2Pf/image.png" alt="image" border="0" />|
-
-| Halaman Detail     |
-|------------|
-|<img src="https://i.ibb.co/PgbncxN/image.png" alt="image" border="0" />|
-
-| Halaman Tentang Kami     |
-|------------|
-|<img src="https://i.ibb.co/sgcmKdK/image.png" alt="image" border="0" />|
-
 <br/><br/>
 
 ## Teknologi
