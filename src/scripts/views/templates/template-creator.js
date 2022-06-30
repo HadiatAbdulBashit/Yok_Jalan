@@ -1,22 +1,14 @@
 const createItemTemplate = (destination) => `
-    <div class="col">
-      <div class="card shadow m-2 bg-light border-5 border-light">
+    <div class="col" data-aos="flip-right" data-aos-offset="-700">
+      <div class="card shadow m-2 border-5">
         <div class="item-header">
-          <img src="${
-  destination.pictureId
-}" class="card-img-top img-fluid item-image" alt="Gambar ${
-  destination.nama
-}" loading="lazy">
+          <img data-src="${destination.pictureId}" class="card-img-top img-fluid item-image lazyload" alt="Gambar ${destination.nama}" loading="lazy">
           <div class="item-header-rating rounded-start">
-              <p class="mb-0">⭐️<span class="rating-score">${
-  destination.rating
-}</span></p>
+              <p class="mb-0">⭐️<span class="rating-score">${destination.rating}</span></p>
           </div>
         </div>
         <div class="card-body">
-          <h4><a class="card-title" href="${`/#/detail/${destination.id}`}">${
-  destination.nama
-}</a></h4>
+          <h4><a class="card-title" href="${`/#/detail/${destination.id}`}">${destination.nama}</a></h4>
           <p class="card-text">${destination.deskripsi}</p>
         </div>
       </div>
@@ -24,36 +16,76 @@ const createItemTemplate = (destination) => `
   `;
 
 const createDetailTemplate = (destination) => `
-  <div class="row">
-    <h2 class="text-center">${destination.nama}</h2>
-    <div class="col-md-4 mt-3">
-      <img src="${destination.pictureId}" alt="logo" class="img-fluid rounded">
+  <div class="col" data-aos="zoom-out" data-aos-offset="-500">
+    <div class="bgimg" style='background-image: url("${destination.pictureId}");'>
+        <div class="caption">
+          <h1><span class="border">${destination.nama}</span></h1>
+        </div>
     </div>
-    <div class="col-md-8 mt-3">
-          <p class="lead text-muted">Deskripsi</p>
-          <p class="lead">${destination.deskripsi}</p>
-          <p class="lead text-muted">Alamat</p>
-          <p class="lead">${destination.alamat}</p>
-          <p class="lead text-muted">Rating</p>
-          <p class="lead">${destination.rating}</p>
-          <p class="lead text-muted">Kategori</p>
-          <p class="lead">${destination.kategori}</p>
-          <p class="lead text-muted">No Telepon</p>
-          <p class="lead">${destination.cp}</p>
+    <div class="mt-3">
+      <div class="row row-cols-1 row-cols-md-2">
+        <div class="col-md-8" data-aos="zoom-out-up" data-aos-offset="-850">
+          <h2 class="text-muted">Deskripsi</h2>
+          <p>${destination.deskripsi}</p>
+        </div>
+        <div class="col-md-4">
+          <div class="row" data-aos="zoom-out-down" data-aos-offset="-850">
+            <div class="col-1">
+              <i class="fa-solid fa-location-dot theme-color"></i>
+            </div>
+            <div class="col">
+              <p>${destination.alamat}</p>
+            </div>
+          </div>
+          <div class="row" data-aos="zoom-out-down" data-aos-offset="-850">
+            <div class="col-1">
+              <i class="fa-solid fa-star theme-color"></i>
+            </div>
+            <div class="col">
+              <p>${destination.rating}</p>
+            </div>
+          </div>
+          <div class="row" data-aos="zoom-out-down" data-aos-offset="-850">
+            <div class="col-1">
+              <i class="fa-solid fa-phone theme-color"></i>
+            </div>
+            <div class="col">
+              <p>${destination.cp}</p>
+            </div>
+          </div>
+          <div class="row" data-aos="zoom-out-down" data-aos-offset="-850">
+            <div class="col-1">
+              <i class="fa-solid fa-table-list theme-color"></i>
+            </div>
+            <div class="col">
+              <p>${destination.kategori}</p>
+            </div>
+          </div>          
+        </div>
+      </div>
     </div>
   </div>
 `;
 
 const createFavoritButton = () => `
   <button aria-label="tambahkan ke favorit" id="favbutton" class="fav">
-  <i class="fa-regular fa-heart" aria-hidden="true"></i>
+    <i class="fa-regular fa-heart" aria-hidden="true"></i>
   </button>
 `;
 
 const createUnFavoritButton = () => `
   <button aria-label="hapus dari favorit" id="favbutton" class="fav">
-  <i class="fa-solid fa-heart" aria-hidden="true"></i>
+    <i class="fa-solid fa-heart" aria-hidden="true"></i>
   </button>  
+`;
+
+const noData = () => `
+  <div class='container text-center' data-aos="zoom-in-up" data-aos-offset="-850">
+    <picture>
+      <source media="(max-width: 600px)" srcset="./images/vector/nodata-small.png" class="img-fluid rounded">
+      <img src="./images/vector/nodata.png" alt="no-data" id="no-data" class="img-fluid rounded">
+    </picture>
+  </div>
 `;
 
 export {
@@ -61,4 +93,5 @@ export {
   createDetailTemplate,
   createFavoritButton,
   createUnFavoritButton,
+  noData,
 };
