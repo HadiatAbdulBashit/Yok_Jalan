@@ -1,4 +1,4 @@
-const CACHE_NAME = new Date().toISOString(); // 'Destination-V1';
+const CACHE_NAME = 'Destination-V1'; // new Date().toISOString();
 
 const CacheHelper = {
   async cachingAppShell(requests) {
