@@ -14,7 +14,7 @@ class AppSearch extends HTMLElement {
 
   render() {
     this.innerHTML = `
-      <div id="search-container" class="search-container" data-aos="fade-down" data-aos-offset="-500">
+      <div id="search-container" class="search-container m-2" data-aos="fade-down" data-aos-offset="-500">
         <input placeholder="Cari Wisata Disini" id="searchElement" type="search">
         <button id="searchButtonElement" type="submit">Cari</button>
       </div>

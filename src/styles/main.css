@@ -23,7 +23,27 @@ html {
 #mainContent {
   max-width: 1200px;
   margin-top: 8rem;
+  margin-bottom: 3rem;
   width: 100%;
+}
+
+/* 
+
+Dark Mode
+
+*/
+
+#mainContent.dark,
+html.dark,
+body.dark,
+path.dark{
+  background: #2b2b2b!important;
+  color: #ddd!important;
+  fill: #2b2b2b!important;
+}
+
+input.dark::-webkit-input-placeholder{
+  color: #ddd!important;
 }
 
 /* 
@@ -75,6 +95,56 @@ App-bar
 }
 
 /* 
+
+Switch
+
+*/
+
+#toggle {
+  position: relative;
+  display: block;
+  width: 64px;
+  height: 32px;
+  border-radius: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+  background-color: #fff;
+  box-shadow: inset 0 1px 15px rgba(0, 0, 0, 0.1),
+              inset 0 1px 2px rgba(0, 0, 0, 0.1),
+              inset 0 -1px 2px rgba(0, 0, 0, 0.05);
+}
+
+#toggle.active{
+  background: #757575;
+  box-shadow: inset 0 2px 15px rgba(0, 0, 0, 0.1),
+              inset 0 2px 2px rgba(0, 0, 0, 0.1),
+              inset 0 -1px 1px rgba(0, 0, 0, 0.1);
+}
+
+#toggle .indicator{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 32px;
+  height: 32px;
+  border-radius: 10px;
+  transform: scale(0.8);
+  transition: 0.5s;
+  background: linear-gradient(to bottom, #dbdbdb, #f9f9f9); 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5),
+              inset 0 1px 1px rgba(255, 255, 255, 0.2),
+              inset 0 -1px 1px rgba(255, 255, 255, 0.2);
+}
+
+#toggle.active .indicator{
+  left: 32px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5),
+              inset 0 1px 1px rgba(255, 255, 255, 0.2),
+              inset 0 -1px 1px rgba(255, 255, 255, 0.2);
+  background: linear-gradient(to bottom, #444, #222);
+}
+
+/* 
 Jumbotron
 */
 
@@ -115,12 +185,6 @@ h2.title {
   color: #00A3FF;
 }
 
-
-p.subtitle {
-  font-size: 1.2rem;
-  color: #042B41;
-}
-
 /* 
 App-Search
 */
@@ -131,8 +195,7 @@ App-Search
   border-radius: 5px;
   display: flex;
   top: 10px;
-  background-color: white;
-  margin-bottom: 1rem;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .search-container > input {
@@ -141,6 +204,7 @@ App-Search
   border: 0;
   border-bottom: 2px solid #999;
   font-weight: bold;
+  background-color: transparent;
 }
 
 .search-container > input:focus {
@@ -180,6 +244,11 @@ App-Search
 /* 
 Item / Card
 */
+
+.card{
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: transparent;
+}
 
 .item-header {
   position: relative;
@@ -289,7 +358,6 @@ h1.title {
 
 p.subtitle {
   font-size: 1.2rem;
-  color: #042B41;
 }
 
 /*

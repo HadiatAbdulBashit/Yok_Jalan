@@ -14,7 +14,7 @@ class AppWelcome extends HTMLElement {
                   <div class="col-lg-5" data-aos="fade-up" data-aos-offset="90">
                     <picture>
                       <source media="(max-width: 600px)" srcset="./images/vector/Welcomeimage-small.png">
-                      <img class='img-fluid welcome-img' src="../../images/vector/Welcomeimage.jpg" alt="Gambar welcome" />
+                      <img class='img-fluid welcome-img' src="../../images/vector/Welcomeimage.png" alt="Gambar welcome" />
                     </picture>
                   </div>
                 </div>

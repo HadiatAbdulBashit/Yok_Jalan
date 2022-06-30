@@ -1,6 +1,6 @@
 const createItemTemplate = (destination) => `
     <div class="col" data-aos="flip-right" data-aos-offset="-700">
-      <div class="card shadow m-2 bg-light border-5 border-light">
+      <div class="card shadow m-2 border-5">
         <div class="item-header">
           <img data-src="${destination.pictureId}" class="card-img-top img-fluid item-image lazyload" alt="Gambar ${destination.nama}" loading="lazy">
           <div class="item-header-rating rounded-start">
