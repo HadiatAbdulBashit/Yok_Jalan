@@ -37,13 +37,10 @@ class AppBar extends HTMLElement {
 
     toggle.onclick = () => {
       toggle.classList.toggle('active');
-      const cards = document.querySelectorAll('.card');
       document.querySelector('#mainContent').classList.toggle('dark');
       document.querySelector('path').classList.toggle('dark');
       document.querySelector('html').classList.toggle('dark');
       document.querySelector('body').classList.toggle('dark');
-      document.querySelector('input').classList.toggle('dark');
-      cards.forEach((card) => card.classList.toggle('dark'));
     };
 
     navs.forEach((nav) => {
